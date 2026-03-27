@@ -33,8 +33,8 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 log = logging.getLogger(__name__)
 
 ROOT         = Path(__file__).parent.parent
-BRAINS_DIR   = ROOT / "brains"
-CONFIG_FILE  = ROOT / "brains.yaml"
+CONFIG_FILE  = Path("/app/brains.yaml")
+BRAINS_DIR   = Path("/app/brains")
 
 OPENROUTER_KEY   = os.environ.get("OPENROUTER_API_KEY", "")
 OPENROUTER_MODEL = os.environ.get("OPENROUTER_MODEL", "anthropic/claude-3-5-haiku")

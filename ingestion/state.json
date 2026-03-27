@@ -1,0 +1,105 @@
+{
+  "nate_jones": {
+    "youtube": {
+      "@NateBJones": {
+        "seen": {
+          "HF5JuuktKJE": true,
+          "4cuT-LKcmWs": true,
+          "YpPcDHc3e9U": true,
+          "7AO4w4Y_L24": true,
+          "AckkntfOvz8": true,
+          "b7IS4C9QALc": true,
+          "7P1pQ5xNb_U": true,
+          "BE4RclIGDmY": true,
+          "awV2kJzh8zk": true,
+          "vqnAOV8NMZ4": true,
+          "sLz4mAyykeE": true,
+          "iL3uDrk-i_E": true,
+          "KX0GurmgAoo": true,
+          "dZxyeYBxPBA": true,
+          "p9acrso71KU": true,
+          "pxuXV3Q6tGY": true,
+          "kuGg0b2IrHQ": true,
+          "7sk3qmIQZnI": true,
+          "AoA9h3TjxE0": true,
+          "2EXyj_fHU48": true,
+          "2sY7Pcm2j2g": true,
+          "hDpjMJw3flk": true
+        },
+        "backfill_page_token": "CDcQAA",
+        "backfill_done": false,
+        "first_run_done": true
+      }
+    },
+    "substack": {},
+    "articles": {},
+    "backfill_cursor": {},
+    "last_run": "2026-03-27T07:15:07.345425+00:00"
+  },
+  "dr_berg": {
+    "youtube": {
+      "@Drberg": {
+        "seen": {
+          "_N4_eodpFvs": true,
+          "nUYo0fGfZjM": true,
+          "s8uzE-zQfZc": true,
+          "36AakbJSWl8": true,
+          "cDMTuj6DMcA": true,
+          "vJFozt4pytg": true,
+          "LoKAhLfPUYA": true,
+          "oyOw69x1K6M": true,
+          "j5BXIh5Pv-s": true,
+          "vakLIn_eZDk": true
+        },
+        "backfill_page_token": null,
+        "backfill_done": false,
+        "first_run_done": true
+      }
+    },
+    "substack": {},
+    "articles": {},
+    "backfill_cursor": {},
+    "last_run": "2026-03-27T07:15:14.375798+00:00"
+  },
+  "andrew_ng": {
+    "youtube": {
+      "@Deeplearningai": {
+        "seen": {
+          "7zFqo1_Pr_4": true,
+          "lzKmZzmy29Y": true,
+          "QRTtS3zElmE": true,
+          "JPcx9qHzzgk": true,
+          "-zx4SAmcDdM": true,
+          "omGyNyMNeGM": true,
+          "qtSruHgnn20": true,
+          "hwUacQ50ZlU": true,
+          "osAG-DNkZeE": true,
+          "0JqHCxn_A-U": true,
+          "Axlesb8yTro": true,
+          "bttcJn58J24": true,
+          "Q_mwaPOQxnc": true,
+          "e_CR4kN0XE4": true,
+          "lVgrowsPASU": true
+        },
+        "backfill_page_token": "CDcQAA",
+        "backfill_done": false,
+        "first_run_done": true
+      }
+    },
+    "substack": {
+      "https://www.deeplearning.ai/the-batch/tag/jan-23-2026/": true,
+      "https://www.deeplearning.ai/the-batch/issue-336/": true,
+      "https://www.deeplearning.ai/the-batch/tag/science/": true,
+      "https://www.deeplearning.ai/the-batch/issue-286/": true,
+      "https://www.deeplearning.ai/the-batch/tag/feb-27-2026/": true,
+      "https://www.deeplearning.ai/the-batch/tag/jan-30-2026/": true,
+      "https://www.deeplearning.ai/the-batch/issue-332/": true,
+      "https://www.deeplearning.ai/the-batch/about/": true,
+      "https://www.deeplearning.ai/the-batch/tag/business/": true,
+      "https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/": true
+    },
+    "articles": {},
+    "backfill_cursor": {},
+    "last_run": "2026-03-27T07:15:32.396433+00:00"
+  }
+}

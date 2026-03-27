@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  brain-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${PORT:-8000}:8000"
+    environment:
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - OPENROUTER_MODEL=${OPENROUTER_MODEL:-anthropic/claude-3-5-haiku}
+      - MCP_AUTH_TOKEN=${MCP_AUTH_TOKEN}
+      - PORT=8000
+    volumes:
+      # Mount brains directory so the MCP server reads the latest .md files
+      # On Railway: use a persistent volume. On Pi: this is just a local path.
+      - ./brains:/app/brains:ro
+      - ./brains.yaml:/app/brains.yaml:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

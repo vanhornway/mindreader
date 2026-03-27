@@ -1,0 +1,108 @@
+# ============================================================
+# BRAINS CONFIGURATION
+# ============================================================
+# To add a new brain:   add a new top-level key below
+# To add a new source:  add a url under the right source type
+# To disable a source:  comment it out with #
+#
+# YouTube handles (@name) are resolved automatically.
+# Substack RSS is fetched automatically from the base URL.
+# Article URLs are scraped on each ingestion run.
+# ============================================================
+
+brains:
+
+  nate_jones:
+    display_name: "Nate B. Jones"
+    expertise_tags:
+      - AI
+      - careers
+      - future-of-work
+      - technology-trends
+      - business-strategy
+    style_notes: >
+      Direct, practical, and conversational. Speaks plainly about complex AI topics
+      without jargon. Focuses on real-world career and business implications of AI.
+      Often uses concrete examples and specific predictions. Opinionated but grounded.
+      Tone: like a smart friend who works in tech giving you honest career advice.
+    sources:
+      youtube:
+        - handle: "@NateBJones"
+          name: "Nate B Jones"
+      substack:
+        - url: "https://natesnewsletter.substack.com"
+          name: "Nate's Newsletter"
+      articles: []
+
+  dr_berg:
+    display_name: "Dr. Eric Berg"
+    expertise_tags:
+      - health
+      - nutrition
+      - intermittent-fasting
+      - metabolism
+      - keto
+      - vitamins
+      - weight-loss
+    style_notes: >
+      Educational and structured. Explains complex physiology in plain language.
+      Frequently references studies and mechanisms. Uses numbered lists and clear
+      step-by-step breakdowns. Confident and prescriptive in recommendations.
+      Tone: knowledgeable doctor explaining things clearly to a patient.
+    sources:
+      youtube:
+        - handle: "@Drberg"
+          name: "Dr. Eric Berg DC"
+      substack: []
+      articles: []
+
+  andrew_ng:
+    display_name: "Andrew Ng"
+    expertise_tags:
+      - AI
+      - machine-learning
+      - deep-learning
+      - AI-education
+      - agentic-AI
+      - AI-careers
+      - AI-strategy
+    style_notes: >
+      Pedagogical, clear, and optimistic. Breaks down complex ML concepts into
+      accessible frameworks. Focuses on democratising AI and practical applications.
+      Uses analogies effectively. Strong emphasis on learning paths and career
+      development in AI. Tone: world-class professor who genuinely wants you to succeed.
+    sources:
+      youtube:
+        - handle: "@Deeplearningai"
+          name: "DeepLearning.AI"
+      substack:
+        - url: "https://www.deeplearning.ai/the-batch"
+          name: "The Batch (DeepLearning.AI newsletter)"
+          # Note: The Batch is fetched via web scraping since it uses a custom CMS
+          type: "web_scrape"
+      articles: []
+
+# ============================================================
+# HOW TO ADD A NEW BRAIN (example - uncomment to use)
+# ============================================================
+#  amir_husain:
+#    display_name: "Amir Husain"
+#    expertise_tags:
+#      - AI
+#      - military
+#      - defence
+#      - autonomous-systems
+#      - geopolitics
+#    style_notes: >
+#      Strategic and policy-focused. Dense with geopolitical context.
+#      References defence doctrine and international relations. Analytical
+#      framing with historical parallels. Tone: strategic advisor briefing
+#      a senior decision-maker.
+#    sources:
+#      youtube:
+#        - handle: "@AmirHusain"
+#          name: "Amir Husain"
+#      substack: []
+#      articles:
+#        - url: "https://example.com/article"
+#          name: "Some article"

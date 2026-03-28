@@ -24,9 +24,13 @@
           "AoA9h3TjxE0": true,
           "2EXyj_fHU48": true,
           "2sY7Pcm2j2g": true,
-          "hDpjMJw3flk": true
+          "hDpjMJw3flk": true,
+          "9RAldoT0S2k": true,
+          "064Ns-gyVgM": true,
+          "CDClFY-R0dI": true,
+          "nZA-w45rfAQ": true
         },
-        "backfill_page_token": "CDcQAA",
+        "backfill_page_token": "CDwQAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -34,7 +38,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-03-27T07:15:07.345425+00:00"
+    "last_run": "2026-03-28T07:04:23.808263+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -49,7 +53,8 @@
           "LoKAhLfPUYA": true,
           "oyOw69x1K6M": true,
           "j5BXIh5Pv-s": true,
-          "vakLIn_eZDk": true
+          "vakLIn_eZDk": true,
+          "G6KNXUjdWbk": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -59,7 +64,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-03-27T07:15:14.375798+00:00"
+    "last_run": "2026-03-28T07:04:25.160674+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -79,9 +84,14 @@
           "bttcJn58J24": true,
           "Q_mwaPOQxnc": true,
           "e_CR4kN0XE4": true,
-          "lVgrowsPASU": true
+          "lVgrowsPASU": true,
+          "SOPftW_muSQ": true,
+          "EXmq8aQN4wY": true,
+          "Q24UKZSG8aQ": true,
+          "Y-rQSxACvOg": true,
+          "D1XQho8jETc": true
         },
-        "backfill_page_token": "CDcQAA",
+        "backfill_page_token": "CDwQAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -96,10 +106,17 @@
       "https://www.deeplearning.ai/the-batch/issue-332/": true,
       "https://www.deeplearning.ai/the-batch/about/": true,
       "https://www.deeplearning.ai/the-batch/tag/business/": true,
-      "https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/": true
+      "https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/": true,
+      "https://www.deeplearning.ai/the-batch/issue-343/": true,
+      "https://www.deeplearning.ai/the-batch/tag/mar-13-2026/": true,
+      "https://www.deeplearning.ai/the-batch/issue-339/": true,
+      "https://www.deeplearning.ai/the-batch/tag/data-points/": true,
+      "https://www.deeplearning.ai/the-batch/tag/dec-10-2025/": true,
+      "https://www.deeplearning.ai/the-batch/issue-334/": true,
+      "https://www.deeplearning.ai/the-batch/issue-340/": true
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-03-27T07:15:32.396433+00:00"
+    "last_run": "2026-03-28T07:04:38.254078+00:00"
   }
 }

@@ -1,0 +1,137 @@
+{
+  "nate_jones": {
+    "youtube": {
+      "@NateBJones": {
+        "seen": {
+          "HF5JuuktKJE": true,
+          "4cuT-LKcmWs": true,
+          "YpPcDHc3e9U": true,
+          "7AO4w4Y_L24": true,
+          "AckkntfOvz8": true,
+          "b7IS4C9QALc": true,
+          "7P1pQ5xNb_U": true,
+          "BE4RclIGDmY": true,
+          "awV2kJzh8zk": true,
+          "vqnAOV8NMZ4": true,
+          "sLz4mAyykeE": true,
+          "iL3uDrk-i_E": true,
+          "KX0GurmgAoo": true,
+          "dZxyeYBxPBA": true,
+          "p9acrso71KU": true,
+          "pxuXV3Q6tGY": true,
+          "kuGg0b2IrHQ": true,
+          "7sk3qmIQZnI": true,
+          "AoA9h3TjxE0": true,
+          "2EXyj_fHU48": true,
+          "2sY7Pcm2j2g": true,
+          "hDpjMJw3flk": true,
+          "9RAldoT0S2k": true,
+          "064Ns-gyVgM": true,
+          "CDClFY-R0dI": true,
+          "nZA-w45rfAQ": true,
+          "7sLgLAih57A": true,
+          "3e7gmNPr5Vo": true,
+          "m0Dei_CpBMA": true
+        },
+        "backfill_page_token": "CEEQAA",
+        "backfill_done": false,
+        "first_run_done": true
+      }
+    },
+    "substack": {},
+    "articles": {},
+    "backfill_cursor": {},
+    "last_run": "2026-03-29T07:11:53.744156+00:00"
+  },
+  "dr_berg": {
+    "youtube": {
+      "@Drberg": {
+        "seen": {
+          "_N4_eodpFvs": true,
+          "nUYo0fGfZjM": true,
+          "s8uzE-zQfZc": true,
+          "36AakbJSWl8": true,
+          "cDMTuj6DMcA": true,
+          "vJFozt4pytg": true,
+          "LoKAhLfPUYA": true,
+          "oyOw69x1K6M": true,
+          "j5BXIh5Pv-s": true,
+          "vakLIn_eZDk": true,
+          "G6KNXUjdWbk": true,
+          "F84ijY7Iofg": true
+        },
+        "backfill_page_token": null,
+        "backfill_done": false,
+        "first_run_done": true
+      }
+    },
+    "substack": {},
+    "articles": {},
+    "backfill_cursor": {},
+    "last_run": "2026-03-29T07:11:54.899169+00:00"
+  },
+  "andrew_ng": {
+    "youtube": {
+      "@Deeplearningai": {
+        "seen": {
+          "7zFqo1_Pr_4": true,
+          "lzKmZzmy29Y": true,
+          "QRTtS3zElmE": true,
+          "JPcx9qHzzgk": true,
+          "-zx4SAmcDdM": true,
+          "omGyNyMNeGM": true,
+          "qtSruHgnn20": true,
+          "hwUacQ50ZlU": true,
+          "osAG-DNkZeE": true,
+          "0JqHCxn_A-U": true,
+          "Axlesb8yTro": true,
+          "bttcJn58J24": true,
+          "Q_mwaPOQxnc": true,
+          "e_CR4kN0XE4": true,
+          "lVgrowsPASU": true,
+          "SOPftW_muSQ": true,
+          "EXmq8aQN4wY": true,
+          "Q24UKZSG8aQ": true,
+          "Y-rQSxACvOg": true,
+          "D1XQho8jETc": true,
+          "W3f9Mdyc_Xg": true,
+          "Grb1qIYnsi8": true,
+          "DRMX9YzmYMQ": true,
+          "_v5jdbpLYqI": true,
+          "K_GD2Y0O4JM": true
+        },
+        "backfill_page_token": "CEEQAA",
+        "backfill_done": false,
+        "first_run_done": true
+      }
+    },
+    "substack": {
+      "https://www.deeplearning.ai/the-batch/tag/jan-23-2026/": true,
+      "https://www.deeplearning.ai/the-batch/issue-336/": true,
+      "https://www.deeplearning.ai/the-batch/tag/science/": true,
+      "https://www.deeplearning.ai/the-batch/issue-286/": true,
+      "https://www.deeplearning.ai/the-batch/tag/feb-27-2026/": true,
+      "https://www.deeplearning.ai/the-batch/tag/jan-30-2026/": true,
+      "https://www.deeplearning.ai/the-batch/issue-332/": true,
+      "https://www.deeplearning.ai/the-batch/about/": true,
+      "https://www.deeplearning.ai/the-batch/tag/business/": true,
+      "https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/": true,
+      "https://www.deeplearning.ai/the-batch/issue-343/": true,
+      "https://www.deeplearning.ai/the-batch/tag/mar-13-2026/": true,
+      "https://www.deeplearning.ai/the-batch/issue-339/": true,
+      "https://www.deeplearning.ai/the-batch/tag/data-points/": true,
+      "https://www.deeplearning.ai/the-batch/tag/dec-10-2025/": true,
+      "https://www.deeplearning.ai/the-batch/issue-334/": true,
+      "https://www.deeplearning.ai/the-batch/issue-340/": true,
+      "https://www.deeplearning.ai/the-batch/tag/research/": true,
+      "https://www.deeplearning.ai/the-batch/issue-344/": true,
+      "https://www.deeplearning.ai/the-batch/tag/dec-26-2025/": true,
+      "https://www.deeplearning.ai/the-batch/issue-346/": true,
+      "https://www.deeplearning.ai/the-batch/tag/jan-16-2026/": true,
+      "https://www.deeplearning.ai/the-batch/tag/letters/": true
+    },
+    "articles": {},
+    "backfill_cursor": {},
+    "last_run": "2026-03-29T07:12:04.081885+00:00"
+  }
+}

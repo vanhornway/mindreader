@@ -42,9 +42,13 @@
           "japT66frdhM": true,
           "lbfoNxoHl2o": true,
           "KbNRNxBawIg": true,
-          "aZsJy0Jm8lU": true
+          "aZsJy0Jm8lU": true,
+          "0cVuMHaYEHE": true,
+          "n6d2e8VrsCQ": true,
+          "UaaN6V993Mw": true,
+          "f80S5qVj8Xw": true
         },
-        "backfill_page_token": "CEYQAA",
+        "backfill_page_token": "CEsQAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -52,7 +56,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-03-30T07:49:11.180159+00:00"
+    "last_run": "2026-03-31T07:22:08.542056+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -70,7 +74,8 @@
           "vakLIn_eZDk": true,
           "G6KNXUjdWbk": true,
           "F84ijY7Iofg": true,
-          "hmBCXFJoUcY": true
+          "hmBCXFJoUcY": true,
+          "qtY_HlRJORo": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -80,7 +85,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-03-30T07:49:12.666642+00:00"
+    "last_run": "2026-03-31T07:22:09.939494+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -115,9 +120,14 @@
           "XrYwFUdu2lk": true,
           "mss19s1LyLY": true,
           "1L_54kmVAn8": true,
-          "IikQLr9gcrg": true
+          "IikQLr9gcrg": true,
+          "6ejKX20es3o": true,
+          "U5aXVELJhfE": true,
+          "WLBrpwYSCjQ": true,
+          "l8VfHmQdlG8": true,
+          "mY9EypyKaEU": true
         },
-        "backfill_page_token": "CEYQAA",
+        "backfill_page_token": "CEsQAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -151,10 +161,13 @@
       "https://www.deeplearning.ai/the-batch/tag/feb-06-2026/": true,
       "https://www.deeplearning.ai/the-batch/tag/ai-careers/": true,
       "https://www.deeplearning.ai/the-batch/tag/feb-13-2026/": true,
-      "https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro/": true
+      "https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro/": true,
+      "https://www.deeplearning.ai/the-batch/tag/jan-02-2026/": true,
+      "https://www.deeplearning.ai/the-batch/issue-331/": true,
+      "https://www.deeplearning.ai/the-batch/tag/jan-09-2026/": true
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-03-30T07:49:53.853086+00:00"
+    "last_run": "2026-03-31T07:22:20.669818+00:00"
   }
 }

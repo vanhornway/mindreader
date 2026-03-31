@@ -326,3 +326,83 @@ Dear learners, Today I'm launching DeepLearning.AI Pro – the one membership th
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-02-2026/
+**Tags:** 
+
+Jan 02, 2026 Chatbots That Build Community by Sharon Zhou: Sharon Zhou of AMD on expanding chat to serve groups and connect us with other people Next year, I’m excited to see AI break out of 1:1 relationships with each of us. In 2026, AI has the potential to bring people together and unite us with h...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-346/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, The anti-AI coalition continues to maneuver to find arguments to slow down AI progress. If someone has a sincere concern about a specific effect of AI, for instance that it may lead to human extinction, I respect their intelle...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/about/
+**Tags:** 
+
+What is The Batch The Batch delivers weekly AI news and insights to help readers keep up with this rapidly changing field. It offers an authoritative perspective that's enlightening to both beginners and experts — along with a dash of fun. Why should you subscribe to The Batch? If you're an AI pract...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-331/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, If you have not yet built an agentic workflow, I encourage you to try doing so, using the simple recipe I’ll share here! With a few lines of code, you can now build a highly autonomous, moderately capable, and highly un reliab...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-30-2026/
+**Tags:** 
+
+Jan 30, 2026 Training For Engagement Can Degrade Alignment: “Moloch’s Bargain” shows fine-tuning can affect social values Individuals and organizations increasingly use large language models to produce media that helps them compete for attention. Does fine-tuning LLMs to encourage engagement, purcha...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-09-2026/
+**Tags:** 
+
+Jan 09, 2026 More Affordable Reasoning: Canadian researchers find capping context helps models better retrieve data One way to improve a reasoning model’s performance is to let it produce a longer chain of thought. However, attending to ever-longer contexts can become expensive, and making that atte...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-16-2026/
+**Tags:** 
+
+Jan 16, 2026 Data Centers Are More Easier on the Environment Than You Might Think: How environmentally friendly are AI data centers? If we're going to use AI, there’s no better way to do it. Many people are fighting the growth of data centers because they could increase CO2 emissions, electricity pr...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-334/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Happy 2026! Will this be the year we finally achieve AGI? I’d like to propose a new version of the Turing Test, which I’ll call the Turing-AGI Test, to see if we’ve achieved this. I’ll explain in a moment why having a new test...
+
+---
+

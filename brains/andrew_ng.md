@@ -476,3 +476,73 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, How ca
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-341/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Will AI create new job opportunities? My daughter Nova loves cats, and her favorite color is yellow. For her 7th birthday, we got a cat-themed cake in yellow by first using Gemini’s Nano Banana to design it, and then asking a ...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-335/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, We just launched a course that shows people who have never coded before, in less than 30 minutes, how to describe an idea for an app and build it using AI. It is now time for everyone — marketers, product professionals, operat...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/dec-10-2025/
+**Tags:** 
+
+Dec 10, 2025 Build an Autonomous Agent Using This Simple Recipe!: The ability of large language models to carry out multiple steps autonomously makes it possible to build a capable agent in a few lines of code. If you have not yet built an agentic workflow, I encourage you to try doing so, using the...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-331/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, If you have not yet built an agentic workflow, I encourage you to try doing so, using the simple recipe I’ll share here! With a few lines of code, you can now build a highly autonomous, moderately capable, and highly un reliab...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-16-2026/
+**Tags:** 
+
+Jan 16, 2026 Data Centers Are More Easier on the Environment Than You Might Think: How environmentally friendly are AI data centers? If we're going to use AI, there’s no better way to do it. Many people are fighting the growth of data centers because they could increase CO2 emissions, electricity pr...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/ai-careers/
+**Tags:** 
+
+AI Careers That Feeling Of Job Insecurity (And What You Can Do About It): In times of economic and technological uncertainty, build on things that tend to remain stable. Community and skills are likely to weather shifts in business and society. I’ve been hearing from people at all levels of seniorit...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-344/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Should there be a Stack Overflow for AI coding agents to share their learnings with each other? Last week, I wrote about the new Context Hub (chub), a CLI tool to provide API documentation to coding agents. Coding agents built...
+
+---
+

@@ -56,9 +56,15 @@
           "fg3r7AfpoGY": true,
           "sLbxafsZIR4": true,
           "kHHyG6ivzoM": true,
-          "4cxOm3_8AYc": true
+          "4cxOm3_8AYc": true,
+          "p0Wif7VJC9c": true,
+          "5ztI_dbj6ek": true,
+          "ra7nYJe86GI": true,
+          "AB4qPdYKEvQ": true,
+          "6gnaAZL7HBA": true,
+          "kqtG-O0hfvs": true
         },
-        "backfill_page_token": "CFUQAA",
+        "backfill_page_token": "CFoQAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -66,7 +72,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-04-02T07:19:26.953301+00:00"
+    "last_run": "2026-04-03T07:16:12.870649+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -88,7 +94,8 @@
           "qtY_HlRJORo": true,
           "cg-fc0m1Ykw": true,
           "oSTDm5wnrJQ": true,
-          "2Ky81FPiMuA": true
+          "2Ky81FPiMuA": true,
+          "1_XFl-61GKA": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -98,7 +105,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-04-02T07:19:28.226023+00:00"
+    "last_run": "2026-04-03T07:16:14.063277+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -148,9 +155,29 @@
           "iiLLfHq047U": true,
           "CkQBJxjgXt4": true,
           "Mv27yTV7CFI": true,
-          "yxu2RQy2i-c": true
+          "yxu2RQy2i-c": true,
+          "MY8YRsMzGKw": true,
+          "1s3nm1TjyXM": true,
+          "azrYpsMoMf8": true,
+          "_Z3SC2ebJBA": true,
+          "qD8-A5psCIk": true,
+          "W-EPzOh-6E4": true,
+          "kCSsp-4wDog": true,
+          "77qwwH9MhSs": true,
+          "pv5g4-sEtwo": true,
+          "coqS0W2AApA": true,
+          "nOSBnGvU_Uo": true,
+          "Hwkj2CarqLc": true,
+          "uXPDq2zEdZk": true,
+          "BASVwoqCPPc": true,
+          "oUampNx324w": true,
+          "NS47q32aWZw": true,
+          "w7vqXL4PWEE": true,
+          "2UMBWyOk75M": true,
+          "funhZgM8uIk": true,
+          "pG5xMfkeMtg": true
         },
-        "backfill_page_token": "CFUQAA",
+        "backfill_page_token": "CFoQAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -191,10 +218,12 @@
       "https://www.deeplearning.ai/the-batch/tag/dec-17-2025/": true,
       "https://www.deeplearning.ai/the-batch/issue-337/": true,
       "https://www.deeplearning.ai/the-batch/issue-341/": true,
-      "https://www.deeplearning.ai/the-batch/issue-335/": true
+      "https://www.deeplearning.ai/the-batch/issue-335/": true,
+      "https://www.deeplearning.ai/the-batch/tag/mar-20-2026/": true,
+      "https://www.deeplearning.ai/the-batch/page/2/": true
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-04-02T07:19:39.151590+00:00"
+    "last_run": "2026-04-03T07:16:32.794201+00:00"
   }
 }

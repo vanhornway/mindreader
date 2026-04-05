@@ -666,3 +666,83 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, U.S. p
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-335/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, We just launched a course that shows people who have never coded before, in less than 30 minutes, how to describe an idea for an app and build it using AI. It is now time for everyone — marketers, product professionals, operat...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/ai-careers/
+**Tags:** 
+
+AI Careers That Feeling Of Job Insecurity (And What You Can Do About It): In times of economic and technological uncertainty, build on things that tend to remain stable. Community and skills are likely to weather shifts in business and society. I’ve been hearing from people at all levels of seniorit...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-337/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, How can businesses go beyond using AI for incremental efficiency gains to create transformative impact? I’m writing this letter from the World Economic Forum (WEF) in Davos, Switzerland, where I’ve been speaking with many CEOs...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-27-2026/
+**Tags:** 
+
+Feb 27, 2026 Introducing the DeepLearning.AI Skill Builder Tool!: Want to strengthen your AI skills? Whether you’re a beginner or an experienced developer, DeepLearning.AI’s free Skill Builder can tell you what to do next. We just released a Skill Builder tool to help you understand in which areas o...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-30-2026/
+**Tags:** 
+
+Jan 30, 2026 Training For Engagement Can Degrade Alignment: “Moloch’s Bargain” shows fine-tuning can affect social values Individuals and organizations increasingly use large language models to produce media that helps them compete for attention. Does fine-tuning LLMs to encourage engagement, purcha...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-340/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I recently spoke at the Sundance Film Festival on a panel about AI. Sundance is an annual gathering of filmmakers and movie buffs that serves as the premier showcase for independent films in the United States. Knowing that man...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-346/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, The anti-AI coalition continues to maneuver to find arguments to slow down AI progress. If someone has a sincere concern about a specific effect of AI, for instance that it may lead to human extinction, I respect their intelle...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-16-2026/
+**Tags:** 
+
+Jan 16, 2026 Data Centers Are More Easier on the Environment Than You Might Think: How environmentally friendly are AI data centers? If we're going to use AI, there’s no better way to do it. Many people are fighting the growth of data centers because they could increase CO2 emissions, electricity pr...
+
+---
+

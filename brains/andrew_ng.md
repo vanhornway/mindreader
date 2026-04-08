@@ -916,3 +916,83 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I rece
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-340/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I recently spoke at the Sundance Film Festival on a panel about AI. Sundance is an annual gathering of filmmakers and movie buffs that serves as the premier showcase for independent films in the United States. Knowing that man...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-332/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, As amazing as LLMs are, improving their knowledge today involves a more piecemeal process than is widely appreciated. I’ve written about how AI is amazing . . . but not that amazing . Well, it is also true that LLMs are genera...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-286/
+**Tags:** 
+
+Dear friends, The buzz over DeepSeek this week crystallized, for many people, a few important trends that have been happening in plain sight: (i) China is catching up to the U.S. in generative AI, with implications for the AI supply chain. (ii) Open weight models are commoditizing the foundation-mod...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-341/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Will AI create new job opportunities? My daughter Nova loves cats, and her favorite color is yellow. For her 7th birthday, we got a cat-themed cake in yellow by first using Gemini’s Nano Banana to design it, and then asking a ...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-30-2026/
+**Tags:** 
+
+Jan 30, 2026 Training For Engagement Can Degrade Alignment: “Moloch’s Bargain” shows fine-tuning can affect social values Individuals and organizations increasingly use large language models to produce media that helps them compete for attention. Does fine-tuning LLMs to encourage engagement, purcha...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-13-2026/
+**Tags:** 
+
+Feb 13, 2026 xAI Blasts Off: SpaceX acquires xAI, announces plans for data centers In space Elon Musk’s SpaceX acquired xAI, opening the door to richer financing of the merged entity’s AI research, a tighter focus on space applications of AI, and — if Musk’s dreams are realized — solar-powered data ...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-336/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Many people are fighting the growth of data centers because they could increase CO 2 emissions, electricity prices, and water use. I’m going to stake out an unpopular view: These concerns are overstated, and blocking data cent...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro/
+**Tags:** 
+
+Dear learners, Today I'm launching DeepLearning.AI Pro – the one membership that keeps you at the forefront of AI. Please join! There has never been a moment in human history when the distance between your having an idea and building it has been smaller. Things that would have required months of wor...
+
+---
+

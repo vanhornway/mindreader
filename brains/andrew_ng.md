@@ -1066,3 +1066,73 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Anothe
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-336/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Many people are fighting the growth of data centers because they could increase CO 2 emissions, electricity prices, and water use. I’m going to stake out an unpopular view: These concerns are overstated, and blocking data cent...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-06-2026/
+**Tags:** 
+
+Feb 06, 2026 How AI Is Affecting the Job Market — And What You Can Do About It: Worries that AI is taking peoples’ jobs have been overblown, but AI is changing the job market. Here’s what to expect and what employers are looking for. Job seekers in the U.S. and many other nations face a tough enviro...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-02-2026/
+**Tags:** 
+
+Jan 02, 2026 Chatbots That Build Community by Sharon Zhou: Sharon Zhou of AMD on expanding chat to serve groups and connect us with other people Next year, I’m excited to see AI break out of 1:1 relationships with each of us. In 2026, AI has the potential to bring people together and unite us with h...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-333/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Another year of rapid AI advances has created more opportunities than ever for anyone — including those just entering the field — to build software. In fact, many companies just can’t find enough skilled AI talent . Every wint...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-342/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, We just released a Skill Builder tool to help you understand in which areas of AI you’re strong, where you can learn more, and what to do next to keep building your skills. I invite you to have a conversation with it. There ar...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-344/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Should there be a Stack Overflow for AI coding agents to share their learnings with each other? Last week, I wrote about the new Context Hub (chub), a CLI tool to provide API documentation to coding agents. Coding agents built...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-332/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, As amazing as LLMs are, improving their knowledge today involves a more piecemeal process than is widely appreciated. I’ve written about how AI is amazing . . . but not that amazing . Well, it is also true that LLMs are genera...
+
+---
+

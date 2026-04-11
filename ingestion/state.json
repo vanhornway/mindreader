@@ -104,9 +104,15 @@
           "9N7qXkmntlU": true,
           "s1eqzfXCgXI": true,
           "jB5Yp6JHY-I": true,
-          "ndbGcHj_GcE": true
+          "ndbGcHj_GcE": true,
+          "ib2m9HVX7as": true,
+          "DhsaVi9pQbk": true,
+          "CJFmhEzmOZg": true,
+          "RVviMEfaJUY": true,
+          "AzOJ9QLgfIk": true,
+          "xNXbW73WgI4": true
         },
-        "backfill_page_token": "CH0QAA",
+        "backfill_page_token": "CIIBEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -114,7 +120,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-04-10T07:48:38.253243+00:00"
+    "last_run": "2026-04-11T07:06:19.341340+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -145,7 +151,8 @@
           "HIbM2V-bXaM": true,
           "vtVQ2XtwoM0": true,
           "jZz6Hl-B8vE": true,
-          "mlCgMBxznIo": true
+          "mlCgMBxznIo": true,
+          "nNofJ4xT-ME": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -155,7 +162,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-04-10T07:48:39.631684+00:00"
+    "last_run": "2026-04-11T07:06:20.952665+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -260,9 +267,14 @@
           "Pj2ieehcwoI": true,
           "9E1e3ZW3-pw": true,
           "bP3nowVzx8A": true,
-          "Ixnra7LETIA": true
+          "Ixnra7LETIA": true,
+          "sTMBV5I33mY": true,
+          "gqT2VOorxrc": true,
+          "KXD7o5IS1C8": true,
+          "FNxpyI-_3vc": true,
+          "ngdeEg5Mk7o": true
         },
-        "backfill_page_token": "CH0QAA",
+        "backfill_page_token": "CIIBEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -312,10 +324,11 @@
       "https://www.deeplearning.ai/the-batch/tag/culture/": true,
       "https://www.deeplearning.ai/the-batch/tag/apr-03-2026/": true,
       "https://www.deeplearning.ai/the-batch/issue-345/": true,
-      "https://www.deeplearning.ai/the-batch/issue-342/": true
+      "https://www.deeplearning.ai/the-batch/issue-342/": true,
+      "https://www.deeplearning.ai/the-batch/tag/apr-10-2026/": true
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-04-10T07:48:50.827231+00:00"
+    "last_run": "2026-04-11T07:06:33.578564+00:00"
   }
 }

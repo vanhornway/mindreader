@@ -1456,3 +1456,63 @@ Feb 13, 2026 xAI Blasts Off: SpaceX acquires xAI, announces plans for data cente
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/ai-careers/
+**Tags:** 
+
+AI Careers That Feeling Of Job Insecurity (And What You Can Do About It): In times of economic and technological uncertainty, build on things that tend to remain stable. Community and skills are likely to weather shifts in business and society. I’ve been hearing from people at all levels of seniorit...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/
+**Tags:** 
+
+A new open model rivals OpenAI’s o1, and it’s free to use or modify. What’s new: DeepSeek released DeepSeek-R1 , a large language model that executes long lines of reasoning before producing output. The code and weights are licensed freely for commercial and personal use, including training new mode...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-343/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I’m thrilled to announce Context Hub , a new tool to give to your coding agents the API documentation they need to write correct code. If you’re building AI systems using modern technologies, your coding agent will often use o...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-13-2026/
+**Tags:** 
+
+Feb 13, 2026 xAI Blasts Off: SpaceX acquires xAI, announces plans for data centers In space Elon Musk’s SpaceX acquired xAI, opening the door to richer financing of the merged entity’s AI research, a tighter focus on space applications of AI, and — if Musk’s dreams are realized — solar-powered data ...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/research/
+**Tags:** 
+
+Machine Learning Research How Liquids and Gases Behave: A dynamic fluids model appears to solve transformers’ pixellation problem Simulating complex physical systems through traditional numerical methods is slow and expensive, and simulations based on machine learning are usually specialized for a s...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-342/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, We just released a Skill Builder tool to help you understand in which areas of AI you’re strong, where you can learn more, and what to do next to keep building your skills. I invite you to have a conversation with it. There ar...
+
+---
+

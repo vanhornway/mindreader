@@ -1836,3 +1836,73 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I rece
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-02-2026/
+**Tags:** 
+
+Jan 02, 2026 Chatbots That Build Community by Sharon Zhou: Sharon Zhou of AMD on expanding chat to serve groups and connect us with other people Next year, I’m excited to see AI break out of 1:1 relationships with each of us. In 2026, AI has the potential to bring people together and unite us with h...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-341/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Will AI create new job opportunities? My daughter Nova loves cats, and her favorite color is yellow. For her 7th birthday, we got a cat-themed cake in yellow by first using Gemini’s Nano Banana to design it, and then asking a ...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-338/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, U.S. policies are driving allies away from using American AI technology. This is leading to interest in sovereign AI — a nation’s ability to access AI technology without relying on foreign powers. This weakens U.S. influence, ...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/
+**Tags:** 
+
+A new open model rivals OpenAI’s o1, and it’s free to use or modify. What’s new: DeepSeek released DeepSeek-R1 , a large language model that executes long lines of reasoning before producing output. The code and weights are licensed freely for commercial and personal use, including training new mode...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-337/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, How can businesses go beyond using AI for incremental efficiency gains to create transformative impact? I’m writing this letter from the World Economic Forum (WEF) in Davos, Switzerland, where I’ve been speaking with many CEOs...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-344/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Should there be a Stack Overflow for AI coding agents to share their learnings with each other? Last week, I wrote about the new Context Hub (chub), a CLI tool to provide API documentation to coding agents. Coding agents built...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-349/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, AI-native software engineering teams operate very differently than traditional teams. The obvious difference is that AI-native teams use coding agents to build products much faster, but this leads to many other changes in how ...
+
+---
+

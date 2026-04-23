@@ -1956,3 +1956,73 @@ Jan 02, 2026 Chatbots That Build Community by Sharon Zhou: Sharon Zhou of AMD on
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/mar-06-2026/
+**Tags:** 
+
+Mar 06, 2026 Context for Coding Agents: Agentic coding systems often make mistakes because they’re not aware of tools, API calls, and the like that came out after they were trained. Context Hub gives them the documentation they need to write correct code. I’m thrilled to announce Context Hub, a new ...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-339/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Job seekers in the U.S. and many other nations face a tough environment. At the same time, fears of AI-caused job loss have — so far — been overblown. However, the demand for AI skills is starting to cause shifts in the job ma...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-335/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, We just launched a course that shows people who have never coded before, in less than 30 minutes, how to describe an idea for an app and build it using AI. It is now time for everyone — marketers, product professionals, operat...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/page/2/
+**Tags:** 
+
+Jan 02, 2026 New Year Special! Hopes for 2026 from David Cox, Adji Bousso Dieng, Juan M. Lavista Ferres, Tanmay Gupta, Pengtao Xie, Sharon Zhou The Batch AI News and Insights: Happy 2026! Will this be the year we finally achieve AGI? I’d like to propose a new version of the Turing Test, which I’ll c...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-16-2026/
+**Tags:** 
+
+Jan 16, 2026 Data Centers Are More Easier on the Environment Than You Might Think: How environmentally friendly are AI data centers? If we're going to use AI, there’s no better way to do it. Many people are fighting the growth of data centers because they could increase CO2 emissions, electricity pr...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-347/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Voice-based AI that you can talk to is improving rapidly, yet most people still don’t appreciate how pervasive voice UIs (user interfaces) will become. Today, we use a keyboard and mouse to control most desktop and web applica...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-344/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Should there be a Stack Overflow for AI coding agents to share their learnings with each other? Last week, I wrote about the new Context Hub (chub), a CLI tool to provide API documentation to coding agents. Coding agents built...
+
+---
+

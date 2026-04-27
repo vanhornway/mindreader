@@ -2256,3 +2256,63 @@ Jan 16, 2026 Data Centers Are More Easier on the Environment Than You Might Thin
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/ai-careers/
+**Tags:** 
+
+AI Careers Assistants That Assist Consistently: Large language models can drift drift from helpful personas to harmful ones, but new research aims to stabilize them Typically, large language models are trained to act as helpful, harmless, honest assistants. However, during long or emotionally charge...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/data-points/
+**Tags:** 
+
+Data Points Hackers break into Claude Mythos: OpenAI launches a security-specialized competitor to Mythos Maine votes to pause construction of data centers. Journalists at major U.S. newspapers push back on publisher’s demand to use AI. AI-generated talking-head videos that support President Trump f...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/page/2/
+**Tags:** 
+
+Jan 09, 2026 LLMs Go To Confession, Automated Scientific Research, What Copilot Users Want, Reasoning For Less The Batch AI News and Insights: We just launched a course that shows people who have never coded before, in less than 30 minutes, how to describe an idea for an app and build it using AI....
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-27-2026/
+**Tags:** 
+
+Feb 27, 2026 Introducing the DeepLearning.AI Skill Builder Tool!: Want to strengthen your AI skills? Whether you’re a beginner or an experienced developer, DeepLearning.AI’s free Skill Builder can tell you what to do next. We just released a Skill Builder tool to help you understand in which areas o...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-336/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Many people are fighting the growth of data centers because they could increase CO 2 emissions, electricity prices, and water use. I’m going to stake out an unpopular view: These concerns are overstated, and blocking data cent...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-340/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I recently spoke at the Sundance Film Festival on a panel about AI. Sundance is an annual gathering of filmmakers and movie buffs that serves as the premier showcase for independent films in the United States. Knowing that man...
+
+---
+

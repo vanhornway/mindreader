@@ -2316,3 +2316,83 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I rece
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/hardware/
+**Tags:** 
+
+Hardware Humanoid Robots Work Factory Floors: Agiliy Digits humanoid robots fetch and carry bins at a Schaeffler auto-parts factory, displacing humans into higher-level jobs A small number of humanoid robots have made their way into industrial settings, where they’re roughly matching the cost of hum...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-13-2026/
+**Tags:** 
+
+Feb 13, 2026 xAI Blasts Off: SpaceX acquires xAI, announces plans for data centers In space Elon Musk’s SpaceX acquired xAI, opening the door to richer financing of the merged entity’s AI research, a tighter focus on space applications of AI, and — if Musk’s dreams are realized — solar-powered data ...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-340/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I recently spoke at the Sundance Film Festival on a panel about AI. Sundance is an annual gathering of filmmakers and movie buffs that serves as the premier showcase for independent films in the United States. Knowing that man...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-345/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I’ve been hearing from people at all levels of seniority about a feeling of job insecurity. High-school students wonder if there will be a job for them, engineers worry about keeping up, C-level officers wonder if they’ll mana...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-30-2026/
+**Tags:** 
+
+Jan 30, 2026 Training For Engagement Can Degrade Alignment: “Moloch’s Bargain” shows fine-tuning can affect social values Individuals and organizations increasingly use large language models to produce media that helps them compete for attention. Does fine-tuning LLMs to encourage engagement, purcha...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-350/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Coding agents are accelerating different types of software work to different degrees. When we architect teams, understanding these distinctions helps us to have realistic expectations. Listing functions from most accelerated t...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-341/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Will AI create new job opportunities? My daughter Nova loves cats, and her favorite color is yellow. For her 7th birthday, we got a cat-themed cake in yellow by first using Gemini’s Nano Banana to design it, and then asking a ...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/
+**Tags:** 
+
+A new open model rivals OpenAI’s o1, and it’s free to use or modify. What’s new: DeepSeek released DeepSeek-R1 , a large language model that executes long lines of reasoning before producing output. The code and weights are licensed freely for commercial and personal use, including training new mode...
+
+---
+

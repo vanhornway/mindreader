@@ -2396,3 +2396,93 @@ A new open model rivals OpenAI’s o1, and it’s free to use or modify. What’
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/apr-24-2026/
+**Tags:** 
+
+Apr 24, 2026 Assistants That Assist Consistently: Large language models can drift drift from helpful personas to harmful ones, but new research aims to stabilize them Typically, large language models are trained to act as helpful, harmless, honest assistants. However, during long or emotionally char...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/page/2/
+**Tags:** 
+
+Jan 09, 2026 LLMs Go To Confession, Automated Scientific Research, What Copilot Users Want, Reasoning For Less The Batch AI News and Insights: We just launched a course that shows people who have never coded before, in less than 30 minutes, how to describe an idea for an app and build it using AI....
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-348/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, As AI agents accelerate coding, what is the future of software engineering? Some trends are clear, such as the Product Management Bottleneck , referring to the idea that we are more constrained by deciding what to build rather...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-340/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I recently spoke at the Sundance Film Festival on a panel about AI. Sundance is an annual gathering of filmmakers and movie buffs that serves as the premier showcase for independent films in the United States. Knowing that man...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-16-2026/
+**Tags:** 
+
+Jan 16, 2026 Data Centers Are More Easier on the Environment Than You Might Think: How environmentally friendly are AI data centers? If we're going to use AI, there’s no better way to do it. Many people are fighting the growth of data centers because they could increase CO2 emissions, electricity pr...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-06-2026/
+**Tags:** 
+
+Feb 06, 2026 How AI Is Affecting the Job Market — And What You Can Do About It: Worries that AI is taking peoples’ jobs have been overblown, but AI is changing the job market. Here’s what to expect and what employers are looking for. Job seekers in the U.S. and many other nations face a tough enviro...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/about/
+**Tags:** 
+
+What is The Batch The Batch delivers weekly AI news and insights to help readers keep up with this rapidly changing field. It offers an authoritative perspective that's enlightening to both beginners and experts — along with a dash of fun. Why should you subscribe to The Batch? If you're an AI pract...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/mar-06-2026/
+**Tags:** 
+
+Mar 06, 2026 Context for Coding Agents: Agentic coding systems often make mistakes because they’re not aware of tools, API calls, and the like that came out after they were trained. Context Hub gives them the documentation they need to write correct code. I’m thrilled to announce Context Hub, a new ...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-350/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Coding agents are accelerating different types of software work to different degrees. When we architect teams, understanding these distinctions helps us to have realistic expectations. Listing functions from most accelerated t...
+
+---
+

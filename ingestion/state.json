@@ -216,9 +216,17 @@
           "A1QVzyH5LpA": true,
           "obqjIoKaqdM": true,
           "0uu1Tqebh3U": true,
-          "48g-_rf7fOI": true
+          "48g-_rf7fOI": true,
+          "Dd-471nYilU": true,
+          "eXhG0boQM_0": true,
+          "dQK_pTXrGDk": true,
+          "EDcWcPueRSE": true,
+          "Ow9iRIfSyxI": true,
+          "4jNS0-GtM4Q": true,
+          "DdlMoRSojtE": true,
+          "WMyoA-7It6o": true
         },
-        "backfill_page_token": "CNwBEAA",
+        "backfill_page_token": "COEBEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -226,7 +234,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-04-29T08:24:39.114182+00:00"
+    "last_run": "2026-04-30T08:27:48.328399+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -281,7 +289,8 @@
           "HiyWfe8TFo0": true,
           "fOFyl-ool9g": true,
           "toPEPIKToVM": true,
-          "zX0JmEbcoD8": true
+          "zX0JmEbcoD8": true,
+          "RN3P3Ra513M": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -291,7 +300,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-04-29T08:24:41.389001+00:00"
+    "last_run": "2026-04-30T08:27:49.782859+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -491,9 +500,14 @@
           "4Kq39nLkwRE": true,
           "-YehDP8LmmM": true,
           "oRAhTejbtLg": true,
-          "RGJE32ZyLoI": true
+          "RGJE32ZyLoI": true,
+          "1X9cLvqOPhg": true,
+          "cipk6Zgmdlg": true,
+          "Fxq6vjJwX3o": true,
+          "HLVCvVEhzf4": true,
+          "yf-VbOEwNWg": true
         },
-        "backfill_page_token": "CNwBEAA",
+        "backfill_page_token": "COEBEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -555,6 +569,6 @@
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-04-29T08:24:53.458195+00:00"
+    "last_run": "2026-04-30T08:28:03.383522+00:00"
   }
 }

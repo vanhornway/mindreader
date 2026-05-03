@@ -2706,3 +2706,83 @@ Dear learners, Today I'm launching DeepLearning.AI Pro – the one membership th
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/hardware/
+**Tags:** 
+
+Hardware Humanoid Robots Work Factory Floors: Agiliy Digits humanoid robots fetch and carry bins at a Schaeffler auto-parts factory, displacing humans into higher-level jobs A small number of humanoid robots have made their way into industrial settings, where they’re roughly matching the cost of hum...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-06-2026/
+**Tags:** 
+
+Feb 06, 2026 How AI Is Affecting the Job Market — And What You Can Do About It: Worries that AI is taking peoples’ jobs have been overblown, but AI is changing the job market. Here’s what to expect and what employers are looking for. Job seekers in the U.S. and many other nations face a tough enviro...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/science/
+**Tags:** 
+
+Science Big AI’s Plans Strain CO2 Pledges: Tech giants including Alphabet, Amazon, Meta, and Microsoft acknowledge AI’s strain on environment Commitments by large AI companies to limit emissions of greenhouse gases are at risk as those companies pursue a massive build-out of data centers, many of wh...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/apr-10-2026/
+**Tags:** 
+
+Apr 10, 2026 How Liquids and Gases Behave: A dynamic fluids model appears to solve transformers’ pixellation problem Simulating complex physical systems through traditional numerical methods is slow and expensive, and simulations based on machine learning are usually specialized for a specific type ...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-347/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Voice-based AI that you can talk to is improving rapidly, yet most people still don’t appreciate how pervasive voice UIs (user interfaces) will become. Today, we use a keyboard and mouse to control most desktop and web applica...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/ai-careers/
+**Tags:** 
+
+AI Careers Assistants That Assist Consistently: Large language models can drift drift from helpful personas to harmful ones, but new research aims to stabilize them Typically, large language models are trained to act as helpful, harmless, honest assistants. However, during long or emotionally charge...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/data-points/
+**Tags:** 
+
+Data Points OpenAI and Microsoft sever their exclusive relationship: DeepSeek V4 makes a smaller splash Google’s and Amazon’s huge bets on Anthropic. Google employees’ resistance to secret government use of AI. The U.S. threat to punish Chinese companies that distill U.S. AI models. An agentic syste...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-340/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I recently spoke at the Sundance Film Festival on a panel about AI. Sundance is an annual gathering of filmmakers and movie buffs that serves as the premier showcase for independent films in the United States. Knowing that man...
+
+---
+

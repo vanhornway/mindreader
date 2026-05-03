@@ -237,9 +237,17 @@
           "RQXvde0wCPs": true,
           "iUSdS-6uwr4": true,
           "p-ibfrMN0M8": true,
-          "Q4g5KXrLRt0": true
+          "Q4g5KXrLRt0": true,
+          "YRiPVdPqTlk": true,
+          "J-lOw3au-0E": true,
+          "FDkvRl1RlT0": true,
+          "F0azDPYFUxY": true,
+          "8dy95KQW-0U": true,
+          "qVufzX_8bqE": true,
+          "fwiy01m4C0w": true,
+          "AbOM7IGIWoU": true
         },
-        "backfill_page_token": "COsBEAA",
+        "backfill_page_token": "CPABEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -247,7 +255,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-02T07:50:04.987735+00:00"
+    "last_run": "2026-05-03T08:05:49.023571+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -305,7 +313,8 @@
           "zX0JmEbcoD8": true,
           "RN3P3Ra513M": true,
           "rIgXXXsL69s": true,
-          "i73GjfRjQUU": true
+          "i73GjfRjQUU": true,
+          "0HqHC-rTYe4": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -315,7 +324,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-02T07:50:07.019093+00:00"
+    "last_run": "2026-05-03T08:05:50.238480+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -530,9 +539,14 @@
           "OIavgUGg7mc": true,
           "4fkqXdcTmGk": true,
           "3CHB3_Q6GkA": true,
-          "eTieetk2dSw": true
+          "eTieetk2dSw": true,
+          "obdVesVsGQI": true,
+          "jFo_gDOOusk": true,
+          "H4YK_7MAckk": true,
+          "BY9KV8uCtj4": true,
+          "g7dv-Lnuor4": true
         },
-        "backfill_page_token": "COsBEAA",
+        "backfill_page_token": "CPABEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -594,6 +608,6 @@
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-02T07:50:19.205321+00:00"
+    "last_run": "2026-05-03T08:06:01.273985+00:00"
   }
 }

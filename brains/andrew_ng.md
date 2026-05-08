@@ -2996,3 +2996,53 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, AI-nat
 
 ---
 
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-286/
+**Tags:** 
+
+Dear friends, The buzz over DeepSeek this week crystallized, for many people, a few important trends that have been happening in plain sight: (i) China is catching up to the U.S. in generative AI, with implications for the AI supply chain. (ii) Open weight models are commoditizing the foundation-mod...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-16-2026/
+**Tags:** 
+
+Jan 16, 2026 Data Centers Are Easier on the Environment Than You Might Think: How environmentally friendly are AI data centers? If we're going to use AI, there’s no better way to do it. Many people are fighting the growth of data centers because they could increase CO2 emissions, electricity prices,...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-339/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Job seekers in the U.S. and many other nations face a tough environment. At the same time, fears of AI-caused job loss have — so far — been overblown. However, the demand for AI skills is starting to cause shifts in the job ma...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/hardware/
+**Tags:** 
+
+Hardware Humanoid Robots Work Factory Floors: Agiliy Digits humanoid robots fetch and carry bins at a Schaeffler auto-parts factory, displacing humans into higher-level jobs A small number of humanoid robots have made their way into industrial settings, where they’re roughly matching the cost of hum...
+
+---
+
+## 
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-351/
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, The ways we prompt AI are very different in 2026 than 2022 when ChatGPT came out. Some people are still using LLMs primarily by asking them short questions. But the models can do much more, like think for minutes, ingest many ...
+
+---
+

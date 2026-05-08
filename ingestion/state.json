@@ -266,9 +266,14 @@
           "Z0HizICooiw": true,
           "QscT8RI0rjY": true,
           "IZV5og1e6gA": true,
-          "1R73pf5Taco": true
+          "1R73pf5Taco": true,
+          "5FLfz7KzV50": true,
+          "85Q9htV2CBE": true,
+          "pEYnFLnz_vI": true,
+          "XuKflH9u-ro": true,
+          "PZI5uC2BzPg": true
         },
-        "backfill_page_token": "CP8BEAA",
+        "backfill_page_token": "CIQCEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -276,7 +281,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-07T08:39:42.485293+00:00"
+    "last_run": "2026-05-08T07:46:34.369031+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -340,7 +345,8 @@
           "eR7lmajf_iI": true,
           "loSpk_02OXc": true,
           "ebHyaykbs54": true,
-          "2qu59nPJXcg": true
+          "2qu59nPJXcg": true,
+          "0P_N9ysWPQs": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -350,7 +356,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-07T08:39:44.876093+00:00"
+    "last_run": "2026-05-08T07:46:35.621886+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -585,9 +591,14 @@
           "I1Xi9m6rgHI": true,
           "sca5rQ9x1cA": true,
           "0az8RjxLLPQ": true,
-          "IFkRKJ5iBDE": true
+          "IFkRKJ5iBDE": true,
+          "YVtP5UGdgXg": true,
+          "xuTiAW0OR40": true,
+          "dLc-lfEEYss": true,
+          "U6zuBcmLxSg": true,
+          "uvTL1N02f04": true
         },
-        "backfill_page_token": "CP8BEAA",
+        "backfill_page_token": "CIQCEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -651,6 +662,6 @@
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-07T08:39:56.315869+00:00"
+    "last_run": "2026-05-08T07:46:44.759623+00:00"
   }
 }

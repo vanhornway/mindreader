@@ -3046,3 +3046,73 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, The wa
 
 ---
 
+## Issue 344
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-344
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Should there be a Stack Overflow for AI coding agents to share their learnings with each other? Last week, I wrote about the new Context Hub (chub), a CLI tool to provide API documentation to coding agents. Coding agents built...
+
+---
+
+## Issue 348
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-348
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, As AI agents accelerate coding, what is the future of software engineering? Some trends are clear, such as the Product Management Bottleneck , referring to the idea that we are more constrained by deciding what to build rather...
+
+---
+
+## Jan 30 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/jan-30-2026
+**Tags:** 
+
+Jan 30, 2026 Training For Engagement Can Degrade Alignment: “Moloch’s Bargain” shows fine-tuning can affect social values Individuals and organizations increasingly use large language models to produce media that helps them compete for attention. Does fine-tuning LLMs to encourage engagement, purcha...
+
+---
+
+## Issue 339
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-339
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Job seekers in the U.S. and many other nations face a tough environment. At the same time, fears of AI-caused job loss have — so far — been overblown. However, the demand for AI skills is starting to cause shifts in the job ma...
+
+---
+
+## Deepseek R1 An Affordable Rival To Openais O1
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1
+**Tags:** 
+
+A new open model rivals OpenAI’s o1, and it’s free to use or modify. What’s new: DeepSeek released DeepSeek-R1 , a large language model that executes long lines of reasoning before producing output. The code and weights are licensed freely for commercial and personal use, including training new mode...
+
+---
+
+## Science
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/science
+**Tags:** 
+
+Science Big AI’s Plans Strain CO2 Pledges: Tech giants including Alphabet, Amazon, Meta, and Microsoft acknowledge AI’s strain on environment Commitments by large AI companies to limit emissions of greenhouse gases are at risk as those companies pursue a massive build-out of data centers, many of wh...
+
+---
+
+## Issue 338
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-338
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, U.S. policies are driving allies away from using American AI technology. This is leading to interest in sovereign AI — a nation’s ability to access AI technology without relying on foreign powers. This weakens U.S. influence, ...
+
+---
+

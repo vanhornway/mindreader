@@ -271,9 +271,15 @@
           "85Q9htV2CBE": true,
           "pEYnFLnz_vI": true,
           "XuKflH9u-ro": true,
-          "PZI5uC2BzPg": true
+          "PZI5uC2BzPg": true,
+          "cUo-QtAectY": true,
+          "W79FW7iUkro": true,
+          "8fztJv-7bF4": true,
+          "i4Jfl1IW-_U": true,
+          "7vX2wZqdSW0": true,
+          "8WzttrzBxfI": true
         },
-        "backfill_page_token": "CIQCEAA",
+        "backfill_page_token": "CIkCEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -281,7 +287,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-08T07:46:34.369031+00:00"
+    "last_run": "2026-05-09T08:00:58.239957+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -346,7 +352,8 @@
           "loSpk_02OXc": true,
           "ebHyaykbs54": true,
           "2qu59nPJXcg": true,
-          "0P_N9ysWPQs": true
+          "0P_N9ysWPQs": true,
+          "kchuJUyiV1c": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -356,7 +363,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-08T07:46:35.621886+00:00"
+    "last_run": "2026-05-09T08:01:01.700373+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -596,9 +603,14 @@
           "xuTiAW0OR40": true,
           "dLc-lfEEYss": true,
           "U6zuBcmLxSg": true,
-          "uvTL1N02f04": true
+          "uvTL1N02f04": true,
+          "DygEd_WvUxU": true,
+          "bFNz2u0hl9E": true,
+          "hh6gE0LxfO8": true,
+          "tHDDbqYfflM": true,
+          "ecOdZlY9jsQ": true
         },
-        "backfill_page_token": "CIQCEAA",
+        "backfill_page_token": "CIkCEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -658,10 +670,20 @@
       "https://www.deeplearning.ai/the-batch/issue-350/": true,
       "https://www.deeplearning.ai/the-batch/tag/apr-24-2026/": true,
       "https://www.deeplearning.ai/the-batch/issue-351/": true,
-      "https://www.deeplearning.ai/the-batch/tag/may-01-2026/": true
+      "https://www.deeplearning.ai/the-batch/tag/may-01-2026/": true,
+      "https://www.deeplearning.ai/the-batch/issue-344": true,
+      "https://www.deeplearning.ai/the-batch/issue-348": true,
+      "https://www.deeplearning.ai/the-batch/tag/jan-30-2026": true,
+      "https://www.deeplearning.ai/the-batch/tag/may-01-2026": true,
+      "https://www.deeplearning.ai/the-batch/tag/mar-27-2026": true,
+      "https://www.deeplearning.ai/the-batch/issue-339": true,
+      "https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1": true,
+      "https://www.deeplearning.ai/the-batch/tag/science": true,
+      "https://www.deeplearning.ai/the-batch/issue-338": true,
+      "https://www.deeplearning.ai/the-batch/tag/apr-03-2026": true
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-08T07:46:44.759623+00:00"
+    "last_run": "2026-05-09T08:01:12.807223+00:00"
   }
 }

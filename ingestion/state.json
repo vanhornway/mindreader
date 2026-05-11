@@ -284,9 +284,15 @@
           "SHmR02CdGjY": true,
           "J95DmmvgjIE": true,
           "UjEZNfshxt0": true,
-          "2uxlals0WXk": true
+          "2uxlals0WXk": true,
+          "EpJ0CjTJSag": true,
+          "Ab4_JS0_w34": true,
+          "ecuNyswLmyM": true,
+          "i7CC6bGDs7c": true,
+          "fd7hvE0EG_c": true,
+          "f9g97Dt-a8A": true
         },
-        "backfill_page_token": "CI4CEAA",
+        "backfill_page_token": "CJMCEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -294,7 +300,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-10T08:12:13.641017+00:00"
+    "last_run": "2026-05-11T09:48:02.389679+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -361,7 +367,8 @@
           "2qu59nPJXcg": true,
           "0P_N9ysWPQs": true,
           "kchuJUyiV1c": true,
-          "rCjjw8Fu8j4": true
+          "rCjjw8Fu8j4": true,
+          "YwXPetLiFpM": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -371,7 +378,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-10T08:12:15.026160+00:00"
+    "last_run": "2026-05-11T09:48:03.714427+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -621,9 +628,14 @@
           "L5INhX5cbWU": true,
           "PKm61nrqpCA": true,
           "vq4Ie5xWhww": true,
-          "peNRqkfukYY": true
+          "peNRqkfukYY": true,
+          "XtlwSmJfUs4": true,
+          "w_2vCijLiiM": true,
+          "jXg0vU0y1ak": true,
+          "KWULpBYzIYk": true,
+          "vStJoetOxJg": true
         },
-        "backfill_page_token": "CI4CEAA",
+        "backfill_page_token": "CJMCEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -700,10 +712,17 @@
       "https://www.deeplearning.ai/the-batch/tag/hardware": true,
       "https://www.deeplearning.ai/the-batch/tag/apr-17-2026": true,
       "https://www.deeplearning.ai/the-batch/tag/apr-10-2026": true,
-      "https://www.deeplearning.ai/the-batch/issue-341": true
+      "https://www.deeplearning.ai/the-batch/issue-341": true,
+      "https://www.deeplearning.ai/the-batch/about": true,
+      "https://www.deeplearning.ai/the-batch/issue-342": true,
+      "https://www.deeplearning.ai/the-batch/tag/feb-27-2026": true,
+      "https://www.deeplearning.ai/the-batch/tag/jan-23-2026": true,
+      "https://www.deeplearning.ai/the-batch/issue-345": true,
+      "https://www.deeplearning.ai/the-batch/tag/business": true,
+      "https://www.deeplearning.ai/the-batch/issue-349": true
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-10T08:12:25.308884+00:00"
+    "last_run": "2026-05-11T09:48:14.719417+00:00"
   }
 }

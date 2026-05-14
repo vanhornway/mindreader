@@ -3416,3 +3416,83 @@ Science Big AI’s Plans Strain CO2 Pledges: Tech giants including Alphabet, Ama
 
 ---
 
+## Science
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/science
+**Tags:** 
+
+Science Big AI’s Plans Strain CO2 Pledges: Tech giants including Alphabet, Amazon, Meta, and Microsoft acknowledge AI’s strain on environment Commitments by large AI companies to limit emissions of greenhouse gases are at risk as those companies pursue a massive build-out of data centers, many of wh...
+
+---
+
+## About
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/about
+**Tags:** 
+
+What is The Batch The Batch delivers weekly AI news and insights to help readers keep up with this rapidly changing field. It offers an authoritative perspective that's enlightening to both beginners and experts — along with a dash of fun. Why should you subscribe to The Batch? If you're an AI pract...
+
+---
+
+## Issue 348
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-348
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, As AI agents accelerate coding, what is the future of software engineering? Some trends are clear, such as the Product Management Bottleneck , referring to the idea that we are more constrained by deciding what to build rather...
+
+---
+
+## Issue 343
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-343
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I’m thrilled to announce Context Hub , a new tool to give to your coding agents the API documentation they need to write correct code. If you’re building AI systems using modern technologies, your coding agent will often use o...
+
+---
+
+## Mar 13 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/mar-13-2026
+**Tags:** 
+
+Mar 13, 2026 Lightning-Fast Diffusion Learning: Inside Feature Auto-Encoder, a diffusion image generator that shrinks embeddings for more speed Research shows that diffusion image generators can train somewhat faster if they learn to reconstruct embeddings from a pretrained encoder that’s built for ...
+
+---
+
+## Feb 27 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-27-2026
+**Tags:** 
+
+Feb 27, 2026 Introducing the DeepLearning.AI Skill Builder Tool!: Want to strengthen your AI skills? Whether you’re a beginner or an experienced developer, DeepLearning.AI’s free Skill Builder can tell you what to do next. We just released a Skill Builder tool to help you understand in which areas o...
+
+---
+
+## Feb 13 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-13-2026
+**Tags:** 
+
+Feb 13, 2026 xAI Blasts Off: SpaceX acquires xAI, announces plans for data centers In space Elon Musk’s SpaceX acquired xAI, opening the door to richer financing of the merged entity’s AI research, a tighter focus on space applications of AI, and — if Musk’s dreams are realized — solar-powered data ...
+
+---
+
+## Issue 351
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-351
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, The ways we prompt AI are very different in 2026 than 2022 when ChatGPT came out. Some people are still using LLMs primarily by asking them short questions. But the models can do much more, like think for minutes, ingest many ...
+
+---
+

@@ -316,9 +316,16 @@
           "aYnALsT0GZU": true,
           "R-CASOusCJo": true,
           "aILFbtoEqQM": true,
-          "Ka3IOeFC2Vg": true
+          "Ka3IOeFC2Vg": true,
+          "9bA49Yc3dlw": true,
+          "adNErrz2aA0": true,
+          "2VmyJu5bbNY": true,
+          "8BsneCFmK1E": true,
+          "dXTxwhyR6mo": true,
+          "HfvO5Hcdyt4": true,
+          "WAdY2bTZ3H4": true
         },
-        "backfill_page_token": "CKcCEAA",
+        "backfill_page_token": "CKwCEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -326,7 +333,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-15T08:53:30.222568+00:00"
+    "last_run": "2026-05-16T08:09:14.383326+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -398,7 +405,8 @@
           "CXXQqmDDEfg": true,
           "3cCsxQVZ2Ac": true,
           "qRrfwUHx99M": true,
-          "YY1MNIhuwIQ": true
+          "YY1MNIhuwIQ": true,
+          "5G7DfRmWsG0": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -408,7 +416,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-15T08:53:31.633392+00:00"
+    "last_run": "2026-05-16T08:09:15.554009+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -683,9 +691,14 @@
           "k3UYUmp3Bi4": true,
           "f5sN3xAEAWQ": true,
           "foCIxwn7VpI": true,
-          "UEMMOdFbT94": true
+          "UEMMOdFbT94": true,
+          "8jXyAmfB6Xo": true,
+          "A2bnWAIpLIo": true,
+          "qOEeK1SNF3k": true,
+          "uot5sbPz1NQ": true,
+          "43CZ0HjIC7U": true
         },
-        "backfill_page_token": "CKcCEAA",
+        "backfill_page_token": "CKwCEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -781,10 +794,11 @@
       "https://www.deeplearning.ai/the-batch/tag/mar-20-2026": true,
       "https://www.deeplearning.ai/the-batch/issue-343": true,
       "https://www.deeplearning.ai/the-batch/issue-351": true,
-      "https://www.deeplearning.ai/the-batch/issue-337": true
+      "https://www.deeplearning.ai/the-batch/issue-337": true,
+      "https://www.deeplearning.ai/the-batch/tag/ai-careers": true
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-15T08:53:42.799098+00:00"
+    "last_run": "2026-05-16T08:09:23.902862+00:00"
   }
 }

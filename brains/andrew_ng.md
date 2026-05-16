@@ -3576,3 +3576,43 @@ Jan 30, 2026 Training For Engagement Can Degrade Alignment: “Moloch’s Bargai
 
 ---
 
+## Feb 13 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-13-2026
+**Tags:** 
+
+Feb 13, 2026 xAI Blasts Off: SpaceX acquires xAI, announces plans for data centers In space Elon Musk’s SpaceX acquired xAI, opening the door to richer financing of the merged entity’s AI research, a tighter focus on space applications of AI, and — if Musk’s dreams are realized — solar-powered data ...
+
+---
+
+## Issue 350
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-350
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Coding agents are accelerating different types of software work to different degrees. When we architect teams, understanding these distinctions helps us to have realistic expectations. Listing functions from most accelerated t...
+
+---
+
+## Apr 10 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/apr-10-2026
+**Tags:** 
+
+Apr 10, 2026 How Liquids and Gases Behave: A dynamic fluids model appears to solve transformers’ pixellation problem Simulating complex physical systems through traditional numerical methods is slow and expensive, and simulations based on machine learning are usually specialized for a specific type ...
+
+---
+
+## Feb 06 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-06-2026
+**Tags:** 
+
+Feb 06, 2026 How AI Is Affecting the Job Market — And What You Can Do About It: Worries that AI is taking peoples’ jobs have been overblown, but AI is changing the job market. Here’s what to expect and what employers are looking for. Job seekers in the U.S. and many other nations face a tough enviro...
+
+---
+

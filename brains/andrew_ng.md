@@ -3676,3 +3676,43 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, The wa
 
 ---
 
+## Feb 27 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-27-2026
+**Tags:** 
+
+Feb 27, 2026 Introducing the DeepLearning.AI Skill Builder Tool!: Want to strengthen your AI skills? Whether you’re a beginner or an experienced developer, DeepLearning.AI’s free Skill Builder can tell you what to do next. We just released a Skill Builder tool to help you understand in which areas o...
+
+---
+
+## Issue 339
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-339
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Job seekers in the U.S. and many other nations face a tough environment. At the same time, fears of AI-caused job loss have — so far — been overblown. However, the demand for AI skills is starting to cause shifts in the job ma...
+
+---
+
+## Issue 353
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-353
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, We’ve been working on AI Andrew, an AI companion shaped by my personality. I invite you to try it out ! Many people are trying to understand what AI means for their work, learning, and careers. I’ve frequently enjoyed conversa...
+
+---
+
+## Issue 349
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-349
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, AI-native software engineering teams operate very differently than traditional teams. The obvious difference is that AI-native teams use coding agents to build products much faster, but this leads to many other changes in how ...
+
+---
+

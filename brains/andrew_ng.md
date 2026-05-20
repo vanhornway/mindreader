@@ -3776,3 +3776,83 @@ Apr 10, 2026 How Liquids and Gases Behave: A dynamic fluids model appears to sol
 
 ---
 
+## Issue 350
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-350
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Coding agents are accelerating different types of software work to different degrees. When we architect teams, understanding these distinctions helps us to have realistic expectations. Listing functions from most accelerated t...
+
+---
+
+## Introducing Deeplearning Ai Pro
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro
+**Tags:** 
+
+Dear learners, Today I'm launching DeepLearning.AI Pro – the one membership that keeps you at the forefront of AI. Please join! There has never been a moment in human history when the distance between your having an idea and building it has been smaller. Things that would have required months of wor...
+
+---
+
+## Issue 341
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-341
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Will AI create new job opportunities? My daughter Nova loves cats, and her favorite color is yellow. For her 7th birthday, we got a cat-themed cake in yellow by first using Gemini’s Nano Banana to design it, and then asking a ...
+
+---
+
+## Feb 13 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-13-2026
+**Tags:** 
+
+Feb 13, 2026 xAI Blasts Off: SpaceX acquires xAI, announces plans for data centers In space Elon Musk’s SpaceX acquired xAI, opening the door to richer financing of the merged entity’s AI research, a tighter focus on space applications of AI, and — if Musk’s dreams are realized — solar-powered data ...
+
+---
+
+## About
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/about
+**Tags:** 
+
+What is The Batch The Batch delivers weekly AI news and insights to help readers keep up with this rapidly changing field. It offers an authoritative perspective that's enlightening to both beginners and experts — along with a dash of fun. Why should you subscribe to The Batch? If you're an AI pract...
+
+---
+
+## Issue 340
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-340
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I recently spoke at the Sundance Film Festival on a panel about AI. Sundance is an annual gathering of filmmakers and movie buffs that serves as the premier showcase for independent films in the United States. Knowing that man...
+
+---
+
+## Issue 286
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-286
+**Tags:** 
+
+Dear friends, The buzz over DeepSeek this week crystallized, for many people, a few important trends that have been happening in plain sight: (i) China is catching up to the U.S. in generative AI, with implications for the AI supply chain. (ii) Open weight models are commoditizing the foundation-mod...
+
+---
+
+## Issue 338
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-338
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, U.S. policies are driving allies away from using American AI technology. This is leading to interest in sovereign AI — a nation’s ability to access AI technology without relying on foreign powers. This weakens U.S. influence, ...
+
+---
+

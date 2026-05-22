@@ -361,9 +361,15 @@
           "iuZyIJ-VzRM": true,
           "ON-Tcu4OLHo": true,
           "WlecNrvXNcc": true,
-          "daaF_5JNKHg": true
+          "daaF_5JNKHg": true,
+          "ogTLWGBc3cE": true,
+          "Cj1m2O-Tmow": true,
+          "WOPFh7CdSX0": true,
+          "xsKJNw-jN7E": true,
+          "f4_u8wKMjAo": true,
+          "0z4l5Rg4M3I": true
         },
-        "backfill_page_token": "CMUCEAA",
+        "backfill_page_token": "CMoCEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -371,7 +377,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-21T09:50:03.589487+00:00"
+    "last_run": "2026-05-22T09:34:35.925887+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -449,7 +455,8 @@
           "yj7RzjUamgw": true,
           "adyzDA3kotI": true,
           "8pwL0JpNsKQ": true,
-          "DUBrD_Ib5No": true
+          "DUBrD_Ib5No": true,
+          "X9qn1fJVhiI": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -459,7 +466,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-21T09:50:05.069429+00:00"
+    "last_run": "2026-05-22T09:34:37.378088+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -773,9 +780,19 @@
           "DvDnGlvGQCk": true,
           "J6hpb-DE7M8": true,
           "Y8h43EEdOrA": true,
-          "xqdgrrXGHKo": true
+          "xqdgrrXGHKo": true,
+          "7VISmcJpqis": true,
+          "EeyLHsND5i0": true,
+          "klAynlP04h0": true,
+          "Z_pCTBtCmck": true,
+          "zbuf9J5KgOM": true,
+          "sz1lB31xxqo": true,
+          "_KAXZtMSDlo": true,
+          "lN7FH754NjM": true,
+          "e9QDd1Osrro": true,
+          "JqyB0taAo7w": true
         },
-        "backfill_page_token": "CMUCEAA",
+        "backfill_page_token": "CMoCEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -878,10 +895,11 @@
       "https://www.deeplearning.ai/the-batch/issue-353": true,
       "https://www.deeplearning.ai/the-batch/tag/may-08-2026": true,
       "https://www.deeplearning.ai/the-batch/issue-286": true,
-      "https://www.deeplearning.ai/the-batch/issue-346": true
+      "https://www.deeplearning.ai/the-batch/issue-346": true,
+      "https://www.deeplearning.ai/the-batch/tag/letters": true
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-21T09:50:19.306184+00:00"
+    "last_run": "2026-05-22T09:34:48.517724+00:00"
   }
 }

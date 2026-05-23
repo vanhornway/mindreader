@@ -3946,3 +3946,63 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Job se
 
 ---
 
+## About
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/about
+**Tags:** 
+
+What is The Batch The Batch delivers weekly AI news and insights to help readers keep up with this rapidly changing field. It offers an authoritative perspective that's enlightening to both beginners and experts — along with a dash of fun. Why should you subscribe to The Batch? If you're an AI pract...
+
+---
+
+## Issue 351
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-351
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, The ways we prompt AI are very different in 2026 than 2022 when ChatGPT came out. Some people are still using LLMs primarily by asking them short questions. But the models can do much more, like think for minutes, ingest many ...
+
+---
+
+## Mar 06 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/mar-06-2026
+**Tags:** 
+
+Mar 06, 2026 Context for Coding Agents: Agentic coding systems often make mistakes because they’re not aware of tools, API calls, and the like that came out after they were trained. Context Hub gives them the documentation they need to write correct code. I’m thrilled to announce Context Hub, a new ...
+
+---
+
+## Feb 13 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-13-2026
+**Tags:** 
+
+Feb 13, 2026 xAI Blasts Off: SpaceX acquires xAI, announces plans for data centers In space Elon Musk’s SpaceX acquired xAI, opening the door to richer financing of the merged entity’s AI research, a tighter focus on space applications of AI, and — if Musk’s dreams are realized — solar-powered data ...
+
+---
+
+## Issue 354
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-354
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Harvard University just voted to limit the number of A grades given in undergraduate classes to about 20% of the class. I’m not in favor of this. It deeply runs counter to how I believe education should be. We should hold a hi...
+
+---
+
+## Apr 10 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/apr-10-2026
+**Tags:** 
+
+Apr 10, 2026 How Liquids and Gases Behave: A dynamic fluids model appears to solve transformers’ pixellation problem Simulating complex physical systems through traditional numerical methods is slow and expensive, and simulations based on machine learning are usually specialized for a specific type ...
+
+---
+

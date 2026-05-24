@@ -375,17 +375,19 @@
           "5wi20qG7oZ8": true,
           "7qMWTXNNdOI": true,
           "L3VB_AnNsQI": true,
-          "8MT0xlArmmY": true
+          "8MT0xlArmmY": true,
+          "xkC_WDLmfS8": true,
+          "RHV8DWAmjAs": true
         },
-        "backfill_page_token": "CM8CEAA",
-        "backfill_done": false,
+        "backfill_page_token": null,
+        "backfill_done": true,
         "first_run_done": true
       }
     },
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-23T08:23:58.964397+00:00"
+    "last_run": "2026-05-24T08:33:47.892897+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -465,7 +467,8 @@
           "8pwL0JpNsKQ": true,
           "DUBrD_Ib5No": true,
           "X9qn1fJVhiI": true,
-          "TLOtcX_WB8U": true
+          "TLOtcX_WB8U": true,
+          "7C9lzPoGUJ4": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -475,7 +478,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-23T08:24:00.327733+00:00"
+    "last_run": "2026-05-24T08:33:49.485251+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -811,7 +814,7 @@
           "L_47rVSuwBU": true,
           "wKAeqSfIX5g": true
         },
-        "backfill_page_token": "CM8CEAA",
+        "backfill_page_token": "CNQCEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -916,10 +919,12 @@
       "https://www.deeplearning.ai/the-batch/issue-286": true,
       "https://www.deeplearning.ai/the-batch/issue-346": true,
       "https://www.deeplearning.ai/the-batch/tag/letters": true,
-      "https://www.deeplearning.ai/the-batch/issue-354": true
+      "https://www.deeplearning.ai/the-batch/issue-354": true,
+      "https://www.deeplearning.ai/the-batch/issue-352": true,
+      "https://www.deeplearning.ai/the-batch/tag/data-points": true
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-23T08:24:11.842677+00:00"
+    "last_run": "2026-05-24T08:33:56.984781+00:00"
   }
 }

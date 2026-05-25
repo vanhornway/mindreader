@@ -4076,3 +4076,53 @@ Feb 06, 2026 How AI Is Affecting the Job Market — And What You Can Do About It
 
 ---
 
+## Deepseek R1 An Affordable Rival To Openais O1
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1
+**Tags:** 
+
+A new open model rivals OpenAI’s o1, and it’s free to use or modify. What’s new: DeepSeek released DeepSeek-R1 , a large language model that executes long lines of reasoning before producing output. The code and weights are licensed freely for commercial and personal use, including training new mode...
+
+---
+
+## Issue 351
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-351
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, The ways we prompt AI are very different in 2026 than 2022 when ChatGPT came out. Some people are still using LLMs primarily by asking them short questions. But the models can do much more, like think for minutes, ingest many ...
+
+---
+
+## Issue 342
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-342
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, We just released a Skill Builder tool to help you understand in which areas of AI you’re strong, where you can learn more, and what to do next to keep building your skills. I invite you to have a conversation with it. There ar...
+
+---
+
+## Feb 13 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-13-2026
+**Tags:** 
+
+Feb 13, 2026 xAI Blasts Off: SpaceX acquires xAI, announces plans for data centers In space Elon Musk’s SpaceX acquired xAI, opening the door to richer financing of the merged entity’s AI research, a tighter focus on space applications of AI, and — if Musk’s dreams are realized — solar-powered data ...
+
+---
+
+## Issue 352
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-352
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, There will be no AI jobpocalypse. The story that AI will lead to massive unemployment is stoking unnecessary fear. AI — like any other technology — does affect jobs, but telling overblown stories of large-scale unemployment is...
+
+---
+

@@ -385,7 +385,10 @@
           "z3pbrFKVyQE": true,
           "6_7Tk0ZH9bU": true,
           "C9BfGswIRnk": true,
-          "NRBQmwlILjk": true
+          "NRBQmwlILjk": true,
+          "LDb0mXNowF4": true,
+          "pW6JKTf95lo": true,
+          "MFzxIT88zfg": true
         },
         "backfill_page_token": null,
         "backfill_done": true,
@@ -395,7 +398,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-27T10:00:10.201602+00:00"
+    "last_run": "2026-05-28T10:10:28.519992+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -480,7 +483,8 @@
           "KzK7T8QprVY": true,
           "kMtys1QYw34": true,
           "x1KsQj1BVl0": true,
-          "3r2lSKHXnOM": true
+          "3r2lSKHXnOM": true,
+          "Hv-EmSstv8k": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -490,7 +494,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-27T10:00:12.578994+00:00"
+    "last_run": "2026-05-28T10:10:29.782043+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -937,10 +941,11 @@
       "https://www.deeplearning.ai/the-batch/issue-354": true,
       "https://www.deeplearning.ai/the-batch/issue-352": true,
       "https://www.deeplearning.ai/the-batch/tag/data-points": true,
-      "https://www.deeplearning.ai/the-batch/tag/may-22-2026": true
+      "https://www.deeplearning.ai/the-batch/tag/may-22-2026": true,
+      "https://www.deeplearning.ai/the-batch/tag/apr-24-2026": true
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-27T10:00:19.252658+00:00"
+    "last_run": "2026-05-28T10:10:34.721530+00:00"
   }
 }

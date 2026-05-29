@@ -4286,3 +4286,63 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I rece
 
 ---
 
+## Introducing Deeplearning Ai Pro
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro
+**Tags:** 
+
+Dear learners, Today I'm launching DeepLearning.AI Pro – the one membership that keeps you at the forefront of AI. Please join! There has never been a moment in human history when the distance between your having an idea and building it has been smaller. Things that would have required months of wor...
+
+---
+
+## Apr 24 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/apr-24-2026
+**Tags:** 
+
+Apr 24, 2026 Assistants That Assist Consistently: Large language models can drift drift from helpful personas to harmful ones, but new research aims to stabilize them Typically, large language models are trained to act as helpful, harmless, honest assistants. However, during long or emotionally char...
+
+---
+
+## Issue 344
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-344
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Should there be a Stack Overflow for AI coding agents to share their learnings with each other? Last week, I wrote about the new Context Hub (chub), a CLI tool to provide API documentation to coding agents. Coding agents built...
+
+---
+
+## Feb 27 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-27-2026
+**Tags:** 
+
+Feb 27, 2026 Introducing the DeepLearning.AI Skill Builder Tool!: Want to strengthen your AI skills? Whether you’re a beginner or an experienced developer, DeepLearning.AI’s free Skill Builder can tell you what to do next. We just released a Skill Builder tool to help you understand in which areas o...
+
+---
+
+## Issue 286
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-286
+**Tags:** 
+
+Dear friends, The buzz over DeepSeek this week crystallized, for many people, a few important trends that have been happening in plain sight: (i) China is catching up to the U.S. in generative AI, with implications for the AI supply chain. (ii) Open weight models are commoditizing the foundation-mod...
+
+---
+
+## Issue 351
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-351
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, The ways we prompt AI are very different in 2026 than 2022 when ChatGPT came out. Some people are still using LLMs primarily by asking them short questions. But the models can do much more, like think for minutes, ingest many ...
+
+---
+

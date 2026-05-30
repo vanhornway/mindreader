@@ -391,7 +391,10 @@
           "MFzxIT88zfg": true,
           "HC3PU1ZjyCU": true,
           "Na29eKTInFk": true,
-          "n0nC1kmztSk": true
+          "n0nC1kmztSk": true,
+          "WPe45FOh7G8": true,
+          "59NCmQ3hxz4": true,
+          "b6J387xJvHg": true
         },
         "backfill_page_token": null,
         "backfill_done": true,
@@ -401,7 +404,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-29T09:59:43.043983+00:00"
+    "last_run": "2026-05-30T08:32:08.346696+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -488,7 +491,8 @@
           "x1KsQj1BVl0": true,
           "3r2lSKHXnOM": true,
           "Hv-EmSstv8k": true,
-          "dQqXD-8osb8": true
+          "dQqXD-8osb8": true,
+          "XJnQT-HjeLM": true
         },
         "backfill_page_token": null,
         "backfill_done": false,
@@ -498,7 +502,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-29T09:59:44.640920+00:00"
+    "last_run": "2026-05-30T08:32:09.778751+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -836,7 +840,12 @@
           "D9hY8pZe7hk": true,
           "ClMb3dvfom8": true,
           "v8bdDQ6SM-Q": true,
-          "n366hY4JZ9U": true
+          "n366hY4JZ9U": true,
+          "_w3WSNr6lO4": true,
+          "80vV6fGIlWo": true,
+          "1OZrOnz8kM0": true,
+          "T-E5YF432Qw": true,
+          "okSgumIGLBY": true
         },
         "backfill_page_token": null,
         "backfill_done": true,
@@ -947,10 +956,11 @@
       "https://www.deeplearning.ai/the-batch/issue-352": true,
       "https://www.deeplearning.ai/the-batch/tag/data-points": true,
       "https://www.deeplearning.ai/the-batch/tag/may-22-2026": true,
-      "https://www.deeplearning.ai/the-batch/tag/apr-24-2026": true
+      "https://www.deeplearning.ai/the-batch/tag/apr-24-2026": true,
+      "https://www.deeplearning.ai/the-batch/tag/may-29-2026": true
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-05-29T09:59:50.449692+00:00"
+    "last_run": "2026-05-30T08:32:16.400915+00:00"
   }
 }

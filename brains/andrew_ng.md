@@ -4386,3 +4386,63 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Coding
 
 ---
 
+## Introducing Deeplearning Ai Pro
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro
+**Tags:** 
+
+Dear learners, Today I'm launching DeepLearning.AI Pro – the one membership that keeps you at the forefront of AI. Please join! There has never been a moment in human history when the distance between your having an idea and building it has been smaller. Things that would have required months of wor...
+
+---
+
+## Issue 348
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-348
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, As AI agents accelerate coding, what is the future of software engineering? Some trends are clear, such as the Product Management Bottleneck , referring to the idea that we are more constrained by deciding what to build rather...
+
+---
+
+## Issue 344
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-344
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Should there be a Stack Overflow for AI coding agents to share their learnings with each other? Last week, I wrote about the new Context Hub (chub), a CLI tool to provide API documentation to coding agents. Coding agents built...
+
+---
+
+## Issue 349
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-349
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, AI-native software engineering teams operate very differently than traditional teams. The obvious difference is that AI-native teams use coding agents to build products much faster, but this leads to many other changes in how ...
+
+---
+
+## Issue 354
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-354
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Harvard University just voted to limit the number of A grades given in undergraduate classes to about 20% of the class. I’m not in favor of this. It deeply runs counter to how I believe education should be. We should hold a hi...
+
+---
+
+## Feb 13 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-13-2026
+**Tags:** 
+
+Feb 13, 2026 xAI Blasts Off: SpaceX acquires xAI, announces plans for data centers In space Elon Musk’s SpaceX acquired xAI, opening the door to richer financing of the merged entity’s AI research, a tighter focus on space applications of AI, and — if Musk’s dreams are realized — solar-powered data ...
+
+---
+

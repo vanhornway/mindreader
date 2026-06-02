@@ -4506,3 +4506,63 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, There 
 
 ---
 
+## Issue 351
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-351
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, The ways we prompt AI are very different in 2026 than 2022 when ChatGPT came out. Some people are still using LLMs primarily by asking them short questions. But the models can do much more, like think for minutes, ingest many ...
+
+---
+
+## Apr 24 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/apr-24-2026
+**Tags:** 
+
+Apr 24, 2026 Assistants That Assist Consistently: Large language models can drift drift from helpful personas to harmful ones, but new research aims to stabilize them Typically, large language models are trained to act as helpful, harmless, honest assistants. However, during long or emotionally char...
+
+---
+
+## About
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/about
+**Tags:** 
+
+What is The Batch The Batch delivers weekly AI news and insights to help readers keep up with this rapidly changing field. It offers an authoritative perspective that's enlightening to both beginners and experts — along with a dash of fun. Why should you subscribe to The Batch? If you're an AI pract...
+
+---
+
+## Issue 355
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-355
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, One of the new, buzzy jobs in Silicon Valley is the AI Forward Deployed Engineer (FDE), an engineer who is embedded within a client organization to help customize solutions, such as building and tuning agentic workflows that s...
+
+---
+
+## Issue 346
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-346
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, The anti-AI coalition continues to maneuver to find arguments to slow down AI progress. If someone has a sincere concern about a specific effect of AI, for instance that it may lead to human extinction, I respect their intelle...
+
+---
+
+## Letters
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/letters
+**Tags:** 
+
+Letters Forward Deployed Engineers and the Future of AI Engineering One of the new, buzzy jobs in Silicon Valley is the AI Forward Deployed Engineer (FDE), an engineer who is embedded within a client organization to help customize solutions, such as building and tuning agentic workflows that suit th...
+
+---
+

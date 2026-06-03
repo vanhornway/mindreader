@@ -4566,3 +4566,73 @@ Letters Forward Deployed Engineers and the Future of AI Engineering One of the n
 
 ---
 
+## Mar 06 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/mar-06-2026
+**Tags:** 
+
+Mar 06, 2026 Context for Coding Agents: Agentic coding systems often make mistakes because they’re not aware of tools, API calls, and the like that came out after they were trained. Context Hub gives them the documentation they need to write correct code. I’m thrilled to announce Context Hub, a new ...
+
+---
+
+## Issue 343
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-343
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I’m thrilled to announce Context Hub , a new tool to give to your coding agents the API documentation they need to write correct code. If you’re building AI systems using modern technologies, your coding agent will often use o...
+
+---
+
+## Deepseek R1 An Affordable Rival To Openais O1
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1
+**Tags:** 
+
+A new open model rivals OpenAI’s o1, and it’s free to use or modify. What’s new: DeepSeek released DeepSeek-R1 , a large language model that executes long lines of reasoning before producing output. The code and weights are licensed freely for commercial and personal use, including training new mode...
+
+---
+
+## Introducing Deeplearning Ai Pro
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro
+**Tags:** 
+
+Dear learners, Today I'm launching DeepLearning.AI Pro – the one membership that keeps you at the forefront of AI. Please join! There has never been a moment in human history when the distance between your having an idea and building it has been smaller. Things that would have required months of wor...
+
+---
+
+## Feb 27 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/feb-27-2026
+**Tags:** 
+
+Feb 27, 2026 Introducing the DeepLearning.AI Skill Builder Tool!: Want to strengthen your AI skills? Whether you’re a beginner or an experienced developer, DeepLearning.AI’s free Skill Builder can tell you what to do next. We just released a Skill Builder tool to help you understand in which areas o...
+
+---
+
+## Issue 349
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-349
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, AI-native software engineering teams operate very differently than traditional teams. The obvious difference is that AI-native teams use coding agents to build products much faster, but this leads to many other changes in how ...
+
+---
+
+## Issue 351
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-351
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, The ways we prompt AI are very different in 2026 than 2022 when ChatGPT came out. Some people are still using LLMs primarily by asking them short questions. But the models can do much more, like think for minutes, ingest many ...
+
+---
+

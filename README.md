@@ -138,6 +138,20 @@ You can also trigger the GitHub Action manually: Actions → Daily brain ingesti
 
 ---
 
+## Running tests
+
+Unit tests are offline — every HTTP call, YouTube API call, and LLM call is stubbed.
+
+```bash
+pip install -r requirements-dev.txt
+pytest
+
+# with coverage
+pytest --cov=ingest --cov=mcp_server --cov-report=term-missing
+```
+
+---
+
 ## File structure
 
 ```
@@ -154,8 +168,14 @@ brain-system/
 ├── mcp_server/
 │   ├── mcp_server.py        ← MCP server (FastAPI)
 │   └── requirements.txt
+├── tests/
+│   ├── conftest.py          ← sandboxed fixtures for both modules
+│   ├── test_ingest.py
+│   └── test_mcp_server.py
+├── requirements-dev.txt     ← runtime deps + pytest
 ├── .github/workflows/
-│   └── daily-ingest.yml     ← GitHub Actions scheduler
+│   ├── daily-ingest.yml     ← GitHub Actions scheduler
+│   └── tests.yml            ← runs pytest on push / PR
 ├── Dockerfile               ← for Railway deployment
 ├── docker-compose.yml       ← for local / Pi deployment
 └── .env.example             ← copy to .env and fill in

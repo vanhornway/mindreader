@@ -32,6 +32,10 @@ from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, No
 from bs4 import BeautifulSoup
 import feedparser
 
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from common.openrouter import openrouter_chat
+
 # ── Logging ──────────────────────────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
@@ -135,6 +139,13 @@ def get_transcript(video_id: str) -> Optional[str]:
         log.error(f"Transcript error for {video_id}: {e}")
         return None
 
+# ── HTTP helpers ──────────────────────────────────────────────────────────────
+
+def fetch_soup(url: str, timeout: int = 15) -> BeautifulSoup:
+    """GET a URL with a browser User-Agent and parse it with BeautifulSoup."""
+    resp = requests.get(url, timeout=timeout, headers={"User-Agent": "Mozilla/5.0"})
+    return BeautifulSoup(resp.text, "html.parser")
+
 # ── Substack helpers ──────────────────────────────────────────────────────────
 
 def get_substack_posts(base_url: str, already_seen: dict) -> list:
@@ -148,8 +159,7 @@ def get_substack_posts(base_url: str, already_seen: dict) -> list:
             continue
         # fetch full content
         try:
-            resp = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
-            soup = BeautifulSoup(resp.text, "html.parser")
+            soup = fetch_soup(url)
             # Substack puts article content in .available-content or article tag
             content_el = soup.find("div", class_="available-content") or soup.find("article")
             text = content_el.get_text(separator=" ", strip=True) if content_el else ""
@@ -169,8 +179,7 @@ def get_substack_posts(base_url: str, already_seen: dict) -> list:
 def scrape_article(url: str) -> Optional[str]:
     """Simple article scraper - extracts main text content."""
     try:
-        resp = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = fetch_soup(url)
         # Remove nav, header, footer, scripts
         for tag in soup(["nav", "header", "footer", "script", "style", "aside"]):
             tag.decompose()
@@ -215,22 +224,14 @@ Text chunk:
 {chunk[:3000]}"""
 
     try:
-        resp = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {OPENROUTER_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": OPENROUTER_MODEL,
-                "messages": [{"role": "user", "content": prompt}],
-                "max_tokens": 300,
-                "temperature": 0.2,
-            },
+        content = openrouter_chat(
+            OPENROUTER_KEY,
+            OPENROUTER_MODEL,
+            [{"role": "user", "content": prompt}],
+            max_tokens=300,
+            temperature=0.2,
             timeout=30,
         )
-        resp.raise_for_status()
-        content = resp.json()["choices"][0]["message"]["content"]
         # Strip markdown fences if present
         content = content.strip().lstrip("```json").lstrip("```").rstrip("```").strip()
         return json.loads(content)
@@ -278,6 +279,36 @@ def append_to_brain(brain_slug: str, brain_config: dict, entry: dict, dry_run: b
         f.write(block)
     log.info(f"Appended '{entry['title']}' to {brain_file.name}")
 
+def summarise_and_append(
+    brain_slug: str,
+    brain_config: dict,
+    text: str,
+    *,
+    title: str,
+    source_type: str,
+    url: str,
+    date: str,
+    dry_run: bool = False,
+) -> bool:
+    """Chunk text, summarise the first chunk, and append the entry to the brain file.
+
+    Returns True if an entry was appended, False if the text was too short.
+    """
+    chunks = chunk_text(text)
+    if not chunks:
+        return False
+    summary_data = summarise_chunk(chunks[0], brain_config)
+    entry = {
+        "title": title,
+        "source_type": source_type,
+        "url": url,
+        "date": date,
+        "summary": summary_data["summary"],
+        "tags": summary_data["tags"],
+    }
+    append_to_brain(brain_slug, brain_config, entry, dry_run)
+    return True
+
 # ── GitHub commit ─────────────────────────────────────────────────────────────
 
 def commit_to_github(updated_files: list[str]):
@@ -320,6 +351,34 @@ def commit_to_github(updated_files: list[str]):
 
 # ── Main ingestion logic ──────────────────────────────────────────────────────
 
+def process_videos(videos: list, yt_state: dict, brain_slug: str, brain_config: dict,
+                   source_type: str, dry_run: bool = False) -> int:
+    """Ingest unseen videos: fetch transcript, summarise, append. Returns count ingested."""
+    count = 0
+    for video in videos:
+        vid_id = video["video_id"]
+        if vid_id in yt_state["seen"]:
+            continue
+        transcript = get_transcript(vid_id)
+        if not transcript:
+            yt_state["seen"][vid_id] = True
+            continue
+        summarise_and_append(
+            brain_slug,
+            brain_config,
+            transcript,
+            title=video["title"],
+            source_type=source_type,
+            url=f"https://youtube.com/watch?v={vid_id}",
+            date=video["published"][:10],
+            dry_run=dry_run,
+        )
+        yt_state["seen"][vid_id] = True
+        count += 1
+        time.sleep(0.5)  # be gentle with APIs
+    return count
+
+
 def ingest_brain(brain_slug: str, brain_config: dict, state: dict, dry_run: bool = False) -> list[str]:
     """Run forward + backfill sweep for one brain. Returns list of updated file paths."""
     log.info(f"--- Ingesting brain: {brain_config['display_name']} ---")
@@ -348,30 +407,8 @@ def ingest_brain(brain_slug: str, brain_config: dict, state: dict, dry_run: bool
         # Forward sweep — get latest videos
         log.info(f"Forward sweep for {handle}")
         videos, _ = get_channel_videos(channel_id, max_results=FORWARD_LIMIT)
-        new_count = 0
-        for video in videos:
-            vid_id = video["video_id"]
-            if vid_id in yt_state["seen"]:
-                continue
-            transcript = get_transcript(vid_id)
-            if not transcript:
-                yt_state["seen"][vid_id] = True
-                continue
-            chunks = chunk_text(transcript)
-            # Summarise first chunk (representative of the video)
-            summary_data = summarise_chunk(chunks[0], brain_config)
-            entry = {
-                "title": video["title"],
-                "source_type": "YouTube",
-                "url": f"https://youtube.com/watch?v={vid_id}",
-                "date": video["published"][:10],
-                "summary": summary_data["summary"],
-                "tags": summary_data["tags"],
-            }
-            append_to_brain(brain_slug, brain_config, entry, dry_run)
-            yt_state["seen"][vid_id] = True
-            new_count += 1
-            time.sleep(0.5)  # be gentle with APIs
+        new_count = process_videos(videos, yt_state, brain_slug, brain_config,
+                                   "YouTube", dry_run)
 
         if not yt_state["first_run_done"]:
             yt_state["first_run_done"] = True
@@ -388,29 +425,8 @@ def ingest_brain(brain_slug: str, brain_config: dict, state: dict, dry_run: bool
                 videos_bf, next_token = get_channel_videos(
                     channel_id, max_results=BACKFILL_BATCH, page_token=page_token
                 )
-                bf_count = 0
-                for video in videos_bf:
-                    vid_id = video["video_id"]
-                    if vid_id in yt_state["seen"]:
-                        continue
-                    transcript = get_transcript(vid_id)
-                    if not transcript:
-                        yt_state["seen"][vid_id] = True
-                        continue
-                    chunks = chunk_text(transcript)
-                    summary_data = summarise_chunk(chunks[0], brain_config)
-                    entry = {
-                        "title": video["title"],
-                        "source_type": "YouTube (backfill)",
-                        "url": f"https://youtube.com/watch?v={vid_id}",
-                        "date": video["published"][:10],
-                        "summary": summary_data["summary"],
-                        "tags": summary_data["tags"],
-                    }
-                    append_to_brain(brain_slug, brain_config, entry, dry_run)
-                    yt_state["seen"][vid_id] = True
-                    bf_count += 1
-                    time.sleep(0.5)
+                bf_count = process_videos(videos_bf, yt_state, brain_slug, brain_config,
+                                          "YouTube (backfill)", dry_run)
                 yt_state["backfill_page_token"] = next_token
                 if not next_token:
                     yt_state["backfill_done"] = True
@@ -440,21 +456,19 @@ def ingest_brain(brain_slug: str, brain_config: dict, state: dict, dry_run: bool
             if not post.get("text"):
                 ss_seen[post["url"]] = True
                 continue
-            chunks = chunk_text(post["text"])
-            if not chunks:
-                ss_seen[post["url"]] = True
-                continue
-            summary_data = summarise_chunk(chunks[0], brain_config)
-            entry = {
-                "title": post["title"],
-                "source_type": f"Substack ({ss_source['name']})",
-                "url": post["url"],
-                "date": post.get("published", "")[:10],
-                "summary": summary_data["summary"],
-                "tags": summary_data["tags"],
-            }
-            append_to_brain(brain_slug, brain_config, entry, dry_run)
+            appended = summarise_and_append(
+                brain_slug,
+                brain_config,
+                post["text"],
+                title=post["title"],
+                source_type=f"Substack ({ss_source['name']})",
+                url=post["url"],
+                date=post.get("published", "")[:10],
+                dry_run=dry_run,
+            )
             ss_seen[post["url"]] = True
+            if not appended:
+                continue
             new_count += 1
             time.sleep(0.5)
 
@@ -472,19 +486,18 @@ def ingest_brain(brain_slug: str, brain_config: dict, state: dict, dry_run: bool
         text = scrape_article(url)
         if not text:
             continue
-        chunks = chunk_text(text)
-        if not chunks:
+        appended = summarise_and_append(
+            brain_slug,
+            brain_config,
+            text,
+            title=article.get("name", url),
+            source_type="Article",
+            url=url,
+            date=datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            dry_run=dry_run,
+        )
+        if not appended:
             continue
-        summary_data = summarise_chunk(chunks[0], brain_config)
-        entry = {
-            "title": article.get("name", url),
-            "source_type": "Article",
-            "url": url,
-            "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-            "summary": summary_data["summary"],
-            "tags": summary_data["tags"],
-        }
-        append_to_brain(brain_slug, brain_config, entry, dry_run)
         brain_state["articles"][url] = True
         brain_file = BRAINS_DIR / f"{brain_slug}.md"
         if brain_file.exists():
@@ -498,8 +511,7 @@ def scrape_batch_newsletter(base_url: str, already_seen: dict) -> list:
     """Scrape The Batch newsletter index from deeplearning.ai."""
     posts = []
     try:
-        resp = requests.get(base_url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = fetch_soup(base_url)
         links = soup.find_all("a", href=True)
         article_urls = list({
             a["href"] for a in links

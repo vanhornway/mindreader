@@ -16,6 +16,7 @@ Auth: Bearer token (simple, no OAuth needed for personal use)
 """
 
 import os
+import sys
 import json
 import uuid
 import logging
@@ -23,10 +24,13 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-import requests
 from fastapi import FastAPI, Request, Response, HTTPException, Depends
 from fastapi.responses import StreamingResponse
 import uvicorn
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from common.openrouter import openrouter_chat
 
 # ── Config ────────────────────────────────────────────────────────────────────
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -102,25 +106,17 @@ def query_llm(system_prompt: str, user_message: str) -> str:
     if not OPENROUTER_KEY:
         return "Error: OPENROUTER_API_KEY not configured on the server."
     try:
-        resp = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {OPENROUTER_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": OPENROUTER_MODEL,
-                "messages": [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_message},
-                ],
-                "max_tokens": 1500,
-                "temperature": 0.7,
-            },
+        return openrouter_chat(
+            OPENROUTER_KEY,
+            OPENROUTER_MODEL,
+            [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_message},
+            ],
+            max_tokens=1500,
+            temperature=0.7,
             timeout=45,
         )
-        resp.raise_for_status()
-        return resp.json()["choices"][0]["message"]["content"]
     except Exception as e:
         log.error(f"OpenRouter error: {e}")
         return f"Error querying LLM: {e}"

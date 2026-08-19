@@ -9,6 +9,9 @@ COPY mcp_server/mcp_server.py .
 COPY brains.yaml .
 COPY brains/ ./brains/
 
+RUN useradd --create-home --uid 10001 appuser
+USER appuser
+
 EXPOSE 8000
 
 CMD ["python", "mcp_server.py"]

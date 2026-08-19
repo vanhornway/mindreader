@@ -45,15 +45,17 @@ jobs:
           OPENROUTER_MODEL:   ${{ secrets.OPENROUTER_MODEL || 'google/gemini-flash-1.5' }}
           GITHUB_TOKEN:       ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO:        ${{ github.repository }}
+          BRAIN_INPUT:        ${{ github.event.inputs.brain }}
+          DRY_RUN:            ${{ github.event.inputs.dry_run }}
         run: |
-          ARGS=""
-          if [ -n "${{ github.event.inputs.brain }}" ]; then
-            ARGS="--brain ${{ github.event.inputs.brain }}"
+          args=()
+          if [ -n "$BRAIN_INPUT" ]; then
+            args+=(--brain "$BRAIN_INPUT")
           fi
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            ARGS="$ARGS --dry-run"
+          if [ "$DRY_RUN" = "true" ]; then
+            args+=(--dry-run)
           fi
-          python ingestion/ingest.py $ARGS
+          python ingestion/ingest.py "${args[@]}"
 
       - name: Commit updated brain files
         run: |

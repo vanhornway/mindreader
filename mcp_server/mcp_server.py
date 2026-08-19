@@ -46,6 +46,20 @@ MAX_BRAIN_CHARS = 80_000
 
 app = FastAPI(title="Brain MCP Server", version="1.0.0")
 
+
+class ToolError(Exception):
+    """A tool could not complete. Surfaced to the client with isError=True."""
+
+
+class InvalidParams(Exception):
+    """Tool arguments were missing or the wrong type (JSON-RPC -32602)."""
+
+
+@app.on_event("startup")
+async def warn_on_missing_auth():
+    if not MCP_AUTH_TOKEN:
+        log.warning("MCP_AUTH_TOKEN is not set — every request is accepted unauthenticated")
+
 # ── Auth ──────────────────────────────────────────────────────────────────────
 
 def verify_auth(request: Request):
@@ -59,17 +73,35 @@ def verify_auth(request: Request):
 # ── Brain loading ─────────────────────────────────────────────────────────────
 
 def load_config() -> dict:
-    return yaml.safe_load(CONFIG_FILE.read_text())["brains"]
+    try:
+        config = yaml.safe_load(CONFIG_FILE.read_text())
+    except FileNotFoundError as e:
+        raise ToolError(f"Server misconfigured: {CONFIG_FILE} not found") from e
+    except OSError as e:
+        raise ToolError(f"Server could not read {CONFIG_FILE}: {e}") from e
+    except yaml.YAMLError as e:
+        raise ToolError(f"Server config {CONFIG_FILE} is not valid YAML: {e}") from e
+    if not isinstance(config, dict) or not isinstance(config.get("brains"), dict):
+        raise ToolError(f"Server config {CONFIG_FILE} must define a top-level 'brains' mapping")
+    return config["brains"]
 
 def load_brain_content(brain_slug: str) -> str:
-    """Load brain .md file content, truncated to fit context window."""
+    """Load brain .md file content, truncated to fit context window.
+
+    Returns "" only when the brain genuinely has no knowledge file; read errors
+    raise so they aren't reported to the user as "no knowledge yet".
+    """
     brain_file = BRAINS_DIR / f"{brain_slug}.md"
     if not brain_file.exists():
         return ""
-    content = brain_file.read_text(encoding="utf-8")
+    try:
+        content = brain_file.read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError) as e:
+        raise ToolError(f"Could not read knowledge file for '{brain_slug}': {e}") from e
     if len(content) > MAX_BRAIN_CHARS:
         # Keep header + most recent entries (file is append-only so newest are at end)
-        header_end = content.find("---\n\n") + 5
+        marker = content.find("---\n\n")
+        header_end = marker + 5 if marker != -1 else 0
         header = content[:header_end]
         rest = content[header_end:]
         # Take last MAX_BRAIN_CHARS worth of entries
@@ -82,10 +114,15 @@ def available_brains() -> list[dict]:
     config = load_config()
     result = []
     for slug, cfg in config.items():
+        if "display_name" not in cfg or "expertise_tags" not in cfg:
+            raise ToolError(f"Brain '{slug}' in {CONFIG_FILE} is missing display_name/expertise_tags")
         brain_file = BRAINS_DIR / f"{slug}.md"
         entry_count = 0
         if brain_file.exists():
-            entry_count = brain_file.read_text().count("\n## ")
+            try:
+                entry_count = brain_file.read_text(encoding="utf-8").count("\n## ")
+            except (OSError, UnicodeDecodeError) as e:
+                raise ToolError(f"Could not read knowledge file for '{slug}': {e}") from e
         result.append({
             "slug": slug,
             "display_name": cfg["display_name"],
@@ -98,9 +135,13 @@ def available_brains() -> list[dict]:
 # ── LLM query ─────────────────────────────────────────────────────────────────
 
 def query_llm(system_prompt: str, user_message: str) -> str:
-    """Send a query to OpenRouter and return the response text."""
+    """Send a query to OpenRouter and return the response text.
+
+    Raises ToolError on failure: returning the error as the answer text made the
+    client treat upstream failures as successful tool results.
+    """
     if not OPENROUTER_KEY:
-        return "Error: OPENROUTER_API_KEY not configured on the server."
+        raise ToolError("OPENROUTER_API_KEY is not configured on the server.")
     try:
         resp = requests.post(
             "https://openrouter.ai/api/v1/chat/completions",
@@ -120,10 +161,16 @@ def query_llm(system_prompt: str, user_message: str) -> str:
             timeout=45,
         )
         resp.raise_for_status()
-        return resp.json()["choices"][0]["message"]["content"]
-    except Exception as e:
-        log.error(f"OpenRouter error: {e}")
-        return f"Error querying LLM: {e}"
+        content = resp.json()["choices"][0]["message"]["content"]
+    except requests.RequestException as e:
+        log.error(f"OpenRouter request failed: {e}")
+        raise ToolError(f"Upstream model request failed: {e}") from e
+    except (ValueError, KeyError, IndexError, TypeError) as e:
+        log.error(f"Unexpected OpenRouter response: {e!r}")
+        raise ToolError(f"Unexpected response from upstream model: {e!r}") from e
+    if not content:
+        raise ToolError("Upstream model returned an empty response.")
+    return content
 
 def build_system_prompt(brain_slug: str, brain_config: dict, brain_content: str) -> str:
     return f"""You are responding as a knowledge assistant with deep expertise in {brain_config['display_name']}'s published work and thinking.
@@ -147,17 +194,20 @@ KNOWLEDGE BASE — {brain_config['display_name']}:
 def tool_query_brain(brain: str, question: str) -> str:
     config = load_config()
     if brain not in config:
-        return f"Brain '{brain}' not found. Available: {', '.join(config.keys())}"
+        raise InvalidParams(f"brain '{brain}' not found. Available: {', '.join(config.keys())}")
     brain_config = config[brain]
     brain_content = load_brain_content(brain)
     if not brain_content:
-        return f"Brain '{brain}' exists in config but has no knowledge yet. Run the ingestion script first."
+        raise ToolError(f"Brain '{brain}' exists in config but has no knowledge yet. Run the ingestion script first.")
     system_prompt = build_system_prompt(brain, brain_config, brain_content)
     return query_llm(system_prompt, question)
 
 def tool_cross_query(brains: list[str], question: str) -> str:
+    if not brains:
+        raise InvalidParams("'brains' must contain at least one brain slug")
     config = load_config()
     responses = []
+    failures = 0
     for brain_slug in brains:
         if brain_slug not in config:
             responses.append(f"**{brain_slug}** — not found\n")
@@ -168,8 +218,17 @@ def tool_cross_query(brains: list[str], question: str) -> str:
             responses.append(f"**{brain_config['display_name']}** — no knowledge yet\n")
             continue
         system_prompt = build_system_prompt(brain_slug, brain_config, brain_content)
-        answer = query_llm(system_prompt, question)
+        try:
+            answer = query_llm(system_prompt, question)
+        except ToolError as e:
+            # One failing brain shouldn't discard the answers already gathered.
+            failures += 1
+            log.error(f"cross_query failed for '{brain_slug}': {e}")
+            responses.append(f"## {brain_config['display_name']}\n\nQuery failed: {e}\n")
+            continue
         responses.append(f"## {brain_config['display_name']}\n\n{answer}\n")
+    if failures and failures == len(brains):
+        raise ToolError(f"All {failures} brain queries failed. Last error above.")
     return "\n---\n\n".join(responses)
 
 def tool_list_brains() -> str:
@@ -244,6 +303,22 @@ TOOLS = [
 
 # ── MCP protocol handlers ─────────────────────────────────────────────────────
 
+def jsonrpc_error(request_id: Any, code: int, message: str) -> dict:
+    return {"jsonrpc": "2.0", "id": request_id, "error": {"code": code, "message": message}}
+
+
+def require_arg(arguments: dict, name: str, expected_type: type):
+    """Fetch a tool argument, raising InvalidParams if absent or mistyped."""
+    if name not in arguments:
+        raise InvalidParams(f"missing required argument '{name}'")
+    value = arguments[name]
+    if not isinstance(value, expected_type):
+        raise InvalidParams(
+            f"argument '{name}' must be {expected_type.__name__}, got {type(value).__name__}"
+        )
+    return value
+
+
 def handle_mcp_request(method: str, params: dict, request_id: Any) -> dict:
     """Route an MCP JSON-RPC method to the right handler."""
 
@@ -273,34 +348,38 @@ def handle_mcp_request(method: str, params: dict, request_id: Any) -> dict:
         arguments = params.get("arguments", {})
         log.info(f"Tool call: {tool_name}({arguments})")
 
+        is_error = False
         try:
             if tool_name == "query_brain":
-                result = tool_query_brain(arguments["brain"], arguments["question"])
+                result = tool_query_brain(require_arg(arguments, "brain", str),
+                                          require_arg(arguments, "question", str))
             elif tool_name == "cross_query":
-                result = tool_cross_query(arguments["brains"], arguments["question"])
+                result = tool_cross_query(require_arg(arguments, "brains", list),
+                                          require_arg(arguments, "question", str))
             elif tool_name == "list_brains":
                 result = tool_list_brains()
             else:
-                result = f"Unknown tool: {tool_name}"
+                return jsonrpc_error(request_id, -32602, f"Unknown tool: {tool_name}")
+        except InvalidParams as e:
+            return jsonrpc_error(request_id, -32602, f"Invalid arguments for {tool_name}: {e}")
+        except ToolError as e:
+            log.error(f"Tool {tool_name} failed: {e}")
+            result, is_error = f"Error executing {tool_name}: {e}", True
         except Exception as e:
-            log.error(f"Tool error: {e}", exc_info=True)
-            result = f"Error executing {tool_name}: {e}"
+            log.error(f"Unexpected error in {tool_name}: {e}", exc_info=True)
+            result, is_error = f"Error executing {tool_name}: {e}", True
 
         return {
             "jsonrpc": "2.0",
             "id": request_id,
             "result": {
                 "content": [{"type": "text", "text": result}],
-                "isError": False,
+                "isError": is_error,
             },
         }
 
     else:
-        return {
-            "jsonrpc": "2.0",
-            "id": request_id,
-            "error": {"code": -32601, "message": f"Method not found: {method}"},
-        }
+        return jsonrpc_error(request_id, -32601, f"Method not found: {method}")
 
 # ── FastAPI routes ────────────────────────────────────────────────────────────
 
@@ -315,16 +394,29 @@ async def head_root():
 @app.post("/")
 async def mcp_endpoint(request: Request):
     """Main MCP endpoint — handles all JSON-RPC methods."""
-    body = await request.json()
+    try:
+        body = await request.json()
+    except (json.JSONDecodeError, UnicodeDecodeError) as e:
+        # Without this the client gets an HTML/plain 500 instead of JSON-RPC.
+        return jsonrpc_error(None, -32700, f"Parse error: {e}")
+    if not isinstance(body, dict):
+        return jsonrpc_error(None, -32600, "Invalid Request: body must be a JSON object")
+
     method = body.get("method", "")
-    params = body.get("params", {})
+    params = body.get("params") or {}
     request_id = body.get("id")
+    if not isinstance(params, dict):
+        return jsonrpc_error(request_id, -32602, "Invalid params: 'params' must be an object")
 
     # Auth check — skip for initialize (per MCP spec, no token on first handshake)
     if method not in ("initialize", "notifications/initialized"):
         verify_auth(request)
 
-    response = handle_mcp_request(method, params, request_id)
+    try:
+        response = handle_mcp_request(method, params, request_id)
+    except Exception as e:
+        log.error(f"Unhandled error for method {method}: {e}", exc_info=True)
+        return jsonrpc_error(request_id, -32603, f"Internal error: {e}")
 
     if response is None:
         # Notification — return 204
@@ -334,7 +426,15 @@ async def mcp_endpoint(request: Request):
 
 @app.get("/health")
 async def health():
-    brains = available_brains()
+    try:
+        brains = available_brains()
+    except ToolError as e:
+        log.error(f"Health check failed: {e}")
+        return Response(
+            content=json.dumps({"status": "error", "detail": str(e)}),
+            media_type="application/json",
+            status_code=503,
+        )
     return {
         "status": "ok",
         "brains": len(brains),

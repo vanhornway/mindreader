@@ -56,6 +56,9 @@ jobs:
           python ingestion/ingest.py $ARGS
 
       - name: Commit updated brain files
+        # Runs even when ingestion exited non-zero so partial progress (new
+        # entries + state) is kept; the job still fails so errors are visible.
+        if: always()
         run: |
           git config user.name  "brain-bot"
           git config user.email "brain-bot@users.noreply.github.com"

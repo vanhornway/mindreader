@@ -17,8 +17,10 @@ Auth: Bearer token (simple, no OAuth needed for personal use)
 
 import os
 import json
+import re
 import uuid
 import logging
+from secrets import compare_digest
 from pathlib import Path
 from typing import Any
 
@@ -33,28 +35,51 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 log = logging.getLogger(__name__)
 
 ROOT         = Path(__file__).parent.parent
-CONFIG_FILE  = Path("/app/brains.yaml")
-BRAINS_DIR   = Path("/app/brains")
+CONFIG_FILE  = Path(os.environ.get("MCP_CONFIG_FILE", "/app/brains.yaml"))
+BRAINS_DIR   = Path(os.environ.get("MCP_BRAINS_DIR", "/app/brains"))
 
 OPENROUTER_KEY   = os.environ.get("OPENROUTER_API_KEY", "")
 OPENROUTER_MODEL = os.environ.get("OPENROUTER_MODEL", "anthropic/claude-3-5-haiku")
 MCP_AUTH_TOKEN   = os.environ.get("MCP_AUTH_TOKEN", "")   # your secret token
+MCP_ALLOW_UNAUTHENTICATED = os.environ.get("MCP_ALLOW_UNAUTHENTICATED", "").lower() == "true"
+MCP_ALLOWED_ORIGINS = {
+    origin.strip()
+    for origin in os.environ.get("MCP_ALLOWED_ORIGINS", "").split(",")
+    if origin.strip()
+}
 MCP_PROTOCOL_VERSION = "2025-06-18"
+MAX_QUESTION_CHARS = 4_000
+MAX_CROSS_QUERY_BRAINS = 5
+BRAIN_SLUG_PATTERN = re.compile(r"^[a-z0-9_-]{1,64}$")
 
 # Max chars of brain content to include in each query (context window budget)
 MAX_BRAIN_CHARS = 80_000
 
 app = FastAPI(title="Brain MCP Server", version="1.0.0")
 
+if not MCP_AUTH_TOKEN:
+    if MCP_ALLOW_UNAUTHENTICATED:
+        log.warning("MCP_ALLOW_UNAUTHENTICATED=true: MCP authentication is disabled")
+    else:
+        log.critical("MCP_AUTH_TOKEN is not configured: authenticated MCP methods will be rejected")
+
 # ── Auth ──────────────────────────────────────────────────────────────────────
 
 def verify_auth(request: Request):
     """Simple bearer token auth. Skip auth for MCP handshake endpoints."""
     if not MCP_AUTH_TOKEN:
-        return  # no auth configured — allow all (only do this locally)
+        if MCP_ALLOW_UNAUTHENTICATED:
+            return
+        raise HTTPException(status_code=503, detail="Server authentication is not configured")
     auth = request.headers.get("Authorization", "")
-    if not auth.startswith("Bearer ") or auth[7:] != MCP_AUTH_TOKEN:
+    parts = auth.split(None, 1)
+    if len(parts) != 2 or parts[0].lower() != "bearer" or not compare_digest(parts[1], MCP_AUTH_TOKEN):
         raise HTTPException(status_code=401, detail="Unauthorized")
+
+def verify_origin(request: Request):
+    origin = request.headers.get("Origin")
+    if origin is not None and origin not in MCP_ALLOWED_ORIGINS:
+        raise HTTPException(status_code=403, detail="Origin not allowed")
 
 # ── Brain loading ─────────────────────────────────────────────────────────────
 
@@ -63,6 +88,8 @@ def load_config() -> dict:
 
 def load_brain_content(brain_slug: str) -> str:
     """Load brain .md file content, truncated to fit context window."""
+    if not isinstance(brain_slug, str) or not BRAIN_SLUG_PATTERN.fullmatch(brain_slug):
+        raise ValueError("invalid brain slug")
     brain_file = BRAINS_DIR / f"{brain_slug}.md"
     if not brain_file.exists():
         return ""
@@ -82,6 +109,9 @@ def available_brains() -> list[dict]:
     config = load_config()
     result = []
     for slug, cfg in config.items():
+        if not isinstance(slug, str) or not BRAIN_SLUG_PATTERN.fullmatch(slug):
+            log.warning("Skipping invalid brain slug in config: %r", slug)
+            continue
         brain_file = BRAINS_DIR / f"{slug}.md"
         entry_count = 0
         if brain_file.exists():
@@ -99,8 +129,10 @@ def available_brains() -> list[dict]:
 
 def query_llm(system_prompt: str, user_message: str) -> str:
     """Send a query to OpenRouter and return the response text."""
+    correlation_id = uuid.uuid4().hex
     if not OPENROUTER_KEY:
-        return "Error: OPENROUTER_API_KEY not configured on the server."
+        log.error("OpenRouter unavailable [%s]: OPENROUTER_API_KEY not configured", correlation_id)
+        return f"Error querying LLM. Correlation ID: {correlation_id}"
     try:
         resp = requests.post(
             "https://openrouter.ai/api/v1/chat/completions",
@@ -122,8 +154,8 @@ def query_llm(system_prompt: str, user_message: str) -> str:
         resp.raise_for_status()
         return resp.json()["choices"][0]["message"]["content"]
     except Exception as e:
-        log.error(f"OpenRouter error: {e}")
-        return f"Error querying LLM: {e}"
+        log.error("OpenRouter error [%s]: %s", correlation_id, e, exc_info=True)
+        return f"Error querying LLM. Correlation ID: {correlation_id}"
 
 def build_system_prompt(brain_slug: str, brain_config: dict, brain_content: str) -> str:
     return f"""You are responding as a knowledge assistant with deep expertise in {brain_config['display_name']}'s published work and thinking.
@@ -144,7 +176,51 @@ KNOWLEDGE BASE — {brain_config['display_name']}:
 
 # ── MCP tool implementations ──────────────────────────────────────────────────
 
-def tool_query_brain(brain: str, question: str) -> str:
+def validate_question(question: Any) -> str | None:
+    if not isinstance(question, str):
+        return "Invalid arguments: question must be a string."
+    if len(question) > MAX_QUESTION_CHARS:
+        return f"Invalid arguments: question must be {MAX_QUESTION_CHARS} characters or fewer."
+    return None
+
+def validate_brain_slug(brain: Any) -> str | None:
+    if not isinstance(brain, str):
+        return "Invalid arguments: brain must be a string."
+    if not BRAIN_SLUG_PATTERN.fullmatch(brain):
+        return "Invalid arguments: brain must match ^[a-z0-9_-]{1,64}$."
+    return None
+
+def validate_tool_arguments(tool_name: Any, arguments: Any) -> str | None:
+    if not isinstance(arguments, dict):
+        return "Invalid arguments: arguments must be an object."
+    required = {
+        "query_brain": ("brain", "question"),
+        "cross_query": ("brains", "question"),
+        "list_brains": (),
+    }.get(tool_name)
+    if required is None:
+        return None
+    for name in required:
+        if name not in arguments:
+            return f"Invalid arguments: missing required argument '{name}'."
+    if tool_name == "query_brain":
+        return validate_brain_slug(arguments["brain"]) or validate_question(arguments["question"])
+    if tool_name == "cross_query":
+        brains = arguments["brains"]
+        if not isinstance(brains, list) or not all(isinstance(slug, str) for slug in brains):
+            return "Invalid arguments: brains must be a list of strings."
+        if len(brains) > MAX_CROSS_QUERY_BRAINS:
+            return f"Invalid arguments: brains must contain at most {MAX_CROSS_QUERY_BRAINS} items."
+        for slug in brains:
+            error = validate_brain_slug(slug)
+            if error:
+                return error
+        return validate_question(arguments["question"])
+    return None
+
+def tool_query_brain(brain: Any, question: Any) -> str:
+    if (error := validate_brain_slug(brain)) or (error := validate_question(question)):
+        return error
     config = load_config()
     if brain not in config:
         return f"Brain '{brain}' not found. Available: {', '.join(config.keys())}"
@@ -155,7 +231,16 @@ def tool_query_brain(brain: str, question: str) -> str:
     system_prompt = build_system_prompt(brain, brain_config, brain_content)
     return query_llm(system_prompt, question)
 
-def tool_cross_query(brains: list[str], question: str) -> str:
+def tool_cross_query(brains: Any, question: Any) -> str:
+    if not isinstance(brains, list) or not all(isinstance(slug, str) for slug in brains):
+        return "Invalid arguments: brains must be a list of strings."
+    if len(brains) > MAX_CROSS_QUERY_BRAINS:
+        return f"Invalid arguments: brains must contain at most {MAX_CROSS_QUERY_BRAINS} items."
+    if error := validate_question(question):
+        return error
+    for brain_slug in brains:
+        if error := validate_brain_slug(brain_slug):
+            return error
     config = load_config()
     responses = []
     for brain_slug in brains:
@@ -271,7 +356,23 @@ def handle_mcp_request(method: str, params: dict, request_id: Any) -> dict:
     elif method == "tools/call":
         tool_name = params.get("name")
         arguments = params.get("arguments", {})
-        log.info(f"Tool call: {tool_name}({arguments})")
+        log.info("Tool call: %s (argument keys: %s)", tool_name, sorted(arguments) if isinstance(arguments, dict) else [])
+
+        if tool_name not in {tool["name"] for tool in TOOLS}:
+            return {
+                "jsonrpc": "2.0",
+                "id": request_id,
+                "result": {
+                    "content": [{"type": "text", "text": f"Unknown tool: {tool_name}"}],
+                    "isError": True,
+                },
+            }
+        if error := validate_tool_arguments(tool_name, arguments):
+            return {
+                "jsonrpc": "2.0",
+                "id": request_id,
+                "error": {"code": -32602, "message": error},
+            }
 
         try:
             if tool_name == "query_brain":
@@ -283,15 +384,16 @@ def handle_mcp_request(method: str, params: dict, request_id: Any) -> dict:
             else:
                 result = f"Unknown tool: {tool_name}"
         except Exception as e:
-            log.error(f"Tool error: {e}", exc_info=True)
-            result = f"Error executing {tool_name}: {e}"
+            correlation_id = uuid.uuid4().hex
+            log.error("Tool error [%s] %s: %s", correlation_id, tool_name, e, exc_info=True)
+            result = f"Error executing tool. Correlation ID: {correlation_id}"
 
         return {
             "jsonrpc": "2.0",
             "id": request_id,
             "result": {
                 "content": [{"type": "text", "text": result}],
-                "isError": False,
+                "isError": result.startswith("Error "),
             },
         }
 
@@ -315,9 +417,12 @@ async def head_root():
 @app.post("/")
 async def mcp_endpoint(request: Request):
     """Main MCP endpoint — handles all JSON-RPC methods."""
+    verify_origin(request)
     body = await request.json()
     method = body.get("method", "")
     params = body.get("params", {})
+    if not isinstance(params, dict):
+        params = {}
     request_id = body.get("id")
 
     # Auth check — skip for initialize (per MCP spec, no token on first handshake)

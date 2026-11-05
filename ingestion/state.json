@@ -603,17 +603,29 @@
           "c3HHFL_lsLM": true,
           "KDGxQtfjBj0": true,
           "eDafFeXAOYk": true,
-          "JFoDdKuRmSk": true
+          "JFoDdKuRmSk": true,
+          "-5cDYPwNf5g": true
         },
         "backfill_page_token": null,
         "backfill_done": true,
         "first_run_done": true
       }
     },
-    "substack": {},
+    "substack": {
+      "https://natesnewsletter.substack.com/p/ai-agent-cost-worth-it": true,
+      "https://natesnewsletter.substack.com/p/zuckerberg-muse-lessons": true,
+      "https://natesnewsletter.substack.com/p/enterprise-ai-agent-platforms": true,
+      "https://natesnewsletter.substack.com/p/ai-agents-website-access": true,
+      "https://natesnewsletter.substack.com/p/anthropic-ipo-s1-analysis": true,
+      "https://natesnewsletter.substack.com/p/ai-agent-overload": true,
+      "https://natesnewsletter.substack.com/p/saas-pricing-ai-roi": true,
+      "https://natesnewsletter.substack.com/p/ai-agents-cybersecurity": true,
+      "https://natesnewsletter.substack.com/p/mechanistic-interpretability-explained": true,
+      "https://natesnewsletter.substack.com/p/computer-for-ai-agents": true
+    },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-11-04T13:58:39.498372+00:00"
+    "last_run": "2026-11-05T14:19:20.063491+00:00"
   },
   "dr_berg": {
     "youtube": {
@@ -1001,9 +1013,16 @@
           "xCpvrhl8xsY": true,
           "7F_5U-6cipU": true,
           "iM3YsKfRh6E": true,
-          "tDhCv_jbDG4": true
+          "tDhCv_jbDG4": true,
+          "l57nG0hZJtw": true,
+          "Bai77XAAr6g": true,
+          "S0NNZP8kYqk": true,
+          "KKKvvjpoqvI": true,
+          "0A-8Pgs1vRo": true,
+          "vQf6RtMFlYo": true,
+          "Ju-toDcs2nw": true
         },
-        "backfill_page_token": "CNcBEAA",
+        "backfill_page_token": "CNwBEAA",
         "backfill_done": false,
         "first_run_done": true
       }
@@ -1011,7 +1030,7 @@
     "substack": {},
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-11-04T13:58:41.571430+00:00"
+    "last_run": "2026-11-05T14:19:25.878474+00:00"
   },
   "andrew_ng": {
     "youtube": {
@@ -1500,10 +1519,17 @@
       "https://www.deeplearning.ai/the-batch/tag/may-22-2026": true,
       "https://www.deeplearning.ai/the-batch/tag/apr-24-2026": true,
       "https://www.deeplearning.ai/the-batch/tag/may-29-2026": true,
-      "https://www.deeplearning.ai/the-batch/issue-355": true
+      "https://www.deeplearning.ai/the-batch/issue-355": true,
+      "https://www.deeplearning.ai/the-batch/search": true,
+      "https://www.deeplearning.ai/the-batch/tag/sep-25-2026": true,
+      "https://www.deeplearning.ai/the-batch/tag/aug-21-2026": true,
+      "https://www.deeplearning.ai/the-batch/issue-365": true,
+      "https://www.deeplearning.ai/the-batch/issue-364": true,
+      "https://www.deeplearning.ai/the-batch/tag/oct-30-2026": true,
+      "https://www.deeplearning.ai/the-batch/issue-367": true
     },
     "articles": {},
     "backfill_cursor": {},
-    "last_run": "2026-11-04T13:58:43.194108+00:00"
+    "last_run": "2026-11-05T14:19:30.308260+00:00"
   }
 }

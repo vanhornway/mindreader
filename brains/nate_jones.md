@@ -106,3 +106,93 @@ You’re not the only user of your computer anymore. If you run agents throughou
 
 ---
 
+## Everyone says be more ambitious with AI. Ambitious about what? Pick one thing to try this week with 4 prompts, then see whether it deserves a second evening.
+
+**Source:** Substack (Nate's Newsletter) | **Date:** Fri, 27 No
+**URL:** https://natesnewsletter.substack.com/p/what-to-use-ai-for
+**Tags:** 
+
+A lot of people are getting very, very fast at a job they never wanted in the first place. You get the deck done before lunch. From your manager’s point of view, this is terrific news about the other three decks due on Friday. A few weeks ago I asked how timidly we’re living in the age of AI . If yo...
+
+---
+
+## Why the AI Boom Is Raising Laptop and Phone Prices
+
+**Source:** Substack (Nate's Newsletter) | **Date:** Wed, 25 No
+**URL:** https://natesnewsletter.substack.com/p/ai-boom-memory-shortage
+**Tags:** 
+
+You can ignore every model launch, decline every chatbot subscription, and still help pay for the AI boom the next time you replace your phone. A year ago, memory accounted for about 20% of the parts cost of a low-end smartphone. Now it accounts for 54%, according to Counterpoint Research . More tha...
+
+---
+
+## Astra, Neon, Opus or Fable: which one fits your work? The prompt guide that answers it for your actual tasks, plus the model I start with for each kind of work.
+
+**Source:** Substack (Nate's Newsletter) | **Date:** Mon, 23 No
+**URL:** https://natesnewsletter.substack.com/p/judge-ai-models
+**Tags:** 
+
+On November 17, OpenAI released GPT-6.2 Astra. The following day, Google released Gemini 4 Neon. I’ve been using both, and the contrast exposes a problem with how we’ve learned to judge AI. Astra has been frustrating for writing and general coding in my experience. It can get absorbed in details tha...
+
+---
+
+## Executive Briefing: Your backup job says it ran. Could your team actually restore what it needs?
+
+**Source:** Substack (Nate's Newsletter) | **Date:** Sun, 22 No
+**URL:** https://natesnewsletter.substack.com/p/ai-cyber-defense-business
+**Tags:** 
+
+We’ve entered a new era of cyber risk, and it’s arriving much faster than most people are prepared for. Cybersecurity failures are reaching the machinery that keeps food edible and medical supplies usable. AI is accelerating the work attackers can do. It can help them investigate an unfamiliar syste...
+
+---
+
+## Stop explaining the same correction to your AI every morning. A guide and five prompts to find which of four causes sent your agent off track and make the fix stick
+
+**Source:** Substack (Nate's Newsletter) | **Date:** Fri, 20 No
+**URL:** https://natesnewsletter.substack.com/p/long-running-ai-agents
+**Tags:** 
+
+The latest AI systems are being asked to stay with a problem for hours or days. They investigate, try an approach, check the result, and keep working when the first attempt fails. The person directing them can step away from the individual steps and return to review progress or make the calls that m...
+
+---
+
+## The AI Model You Use Every Day Is Getting Better at Controlling Robots. Claude Fable 5.2 More Than Doubled Its Predecessor's Score on a Simulated Robot
+
+**Source:** Substack (Nate's Newsletter) | **Date:** Thu, 19 No
+**URL:** https://natesnewsletter.substack.com/p/ai-robotics-bitter-lesson
+**Tags:** 
+
+In October, Lucy Cai and Claire Mao, the founders of the robotics lab Most Robotic, gave OpenAI’s GPT-6 Astra control of a kitchen arm they called Podrick. They wanted to see how much of a dinner party it could prepare. Starting the rice meant pressing a small tab. When Podrick missed, dinner was no...
+
+---
+
+## Executive Briefing: Will Your Customers Ask You to Pass Your AI Savings Through in Price, Like Infosys's Clients Did? How to Find the Price That Protects Your Earnings.
+
+**Source:** Substack (Nate's Newsletter) | **Date:** Sun, 15 No
+**URL:** https://natesnewsletter.substack.com/p/ai-evals-pricing-power
+**Tags:** 
+
+For three months, AI spending among the businesses in Ramp’s data has barely moved. Token use keeps growing. Companies are consuming more intelligence without sending proportionately bigger checks to the companies producing it. Ramp reported almost no growth in token spending across August and Septe...
+
+---
+
+## If you still have six AI windows open, what got simpler? Here's what it looks like to ask one office manager what happened and what needs you.
+
+**Source:** Substack (Nate's Newsletter) | **Date:** Fri, 13 No
+**URL:** https://natesnewsletter.substack.com/p/oddboro-manage-multiple-ai-agents-launch
+**Tags:** 
+
+What is my Claude doing? What is my Codex doing? What exactly are my agents doing all day? I use a lot of AI tools, and sometimes I feel like I’ve traded one kind of stress for another kind of stress. They can do things to my Gmail. Sometimes my Gmail gets rate limited and I didn’t intend it to. I g...
+
+---
+
+## I Handed Fable 5.2 a Month of Failed Attempts and Got a Working Display, With No Extra Bill. The Prompts Behind It and How to Scope Your Own Project
+
+**Source:** Substack (Nate's Newsletter) | **Date:** Thu, 12 No
+**URL:** https://natesnewsletter.substack.com/p/claude-fable-5-2-worth-it
+**Tags:** 
+
+A few people in my community have told me Fable 5.2 is too expensive to use. They’re spending $150 on a strategy doc and looking at the result thinking, was that really worth it? Look, I agree. If you’re paying $150 for a strategy doc and it’s mostly a better-written version of what you already thou...
+
+---
+

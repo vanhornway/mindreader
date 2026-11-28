@@ -4686,3 +4686,43 @@ Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I prev
 
 ---
 
+## Data Points
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/data-points
+**Tags:** 
+
+Data Points GPT-6.2 Astra & Sol cut prices to match Claude: Alibaba updates to Qwen4; developers await open models All the new models announced at Microsoft Ignite. MDASH, a GitHub scanner that fixes bugs, not just reports them. Nvidia’s board chair says no to reinstating Jensen Huang. Nvidia halts ...
+
+---
+
+## Issue 380
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/issue-380
+**Tags:** 
+
+Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, I was saddened to hear about Jensen Huang resigning from Nvidia last week. Yes, Jensen made serious mistakes . At the same time, he is a brilliant leader that has done tremendous work growing AI — providing compute to power tr...
+
+---
+
+## Introducing Deeplearning Ai Pro
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro
+**Tags:** 
+
+Dear learners, Today I'm launching DeepLearning.AI Pro – the one membership that keeps you at the forefront of AI. Please join! There has never been a moment in human history when the distance between your having an idea and building it has been smaller. Things that would have required months of wor...
+
+---
+
+## Oct 16 2026
+
+**Source:** Substack (The Batch (DeepLearning.AI newsletter)) | **Date:** 
+**URL:** https://www.deeplearning.ai/the-batch/tag/oct-16-2026
+**Tags:** 
+
+Oct 16, 2026 Data Mixing, Minus the Guesswork: Research from the team behind CausalMix offers a technique to select fine-tuning examples When you’re building a fine-tuning dataset, finding a mix of subject domains that yields a high-performing model can require expensive trial and error, because fin...
+
+---
+
